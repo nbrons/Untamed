@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Nick/StudioProjects/Untamed2/untamed2/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <color name="gray">#adadad</color>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="windowActionBar">false</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:spinnerDropDownItemStyle">@style/YourCustomDropDownItemStyle</item>
+
+    </style>
+    <!-- From: file:/C:/Users/Nick/StudioProjects/Untamed2/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v14/values.xml -->
+    <eat-comment/>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Platform.AppCompat" parent="Platform.V14.AppCompat"/>
+    <style name="Platform.AppCompat.Light" parent="Platform.V14.AppCompat.Light"/>
+    <style name="Platform.V14.AppCompat" parent="Platform.V12.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="Platform.V12.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <!-- From: file:/C:/Users/Nick/StudioProjects/Untamed2/untamed2/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="YourCustomDropDownItemStyle" parent="android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/YourCustomDropDownItemTextStyle</item>
+    </style>
+    <style name="YourCustomDropDownItemTextStyle" parent="android:Widget">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16dp</item>
+        <!-- Here you can set the color and other text attributes -->
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="actions">
+        <item>Posts Nearby</item>
+        <item>University of Toronto</item>
+        <item>Mount Royal University</item>
+        <item>University of Calgary</item>
+        <item>Sait</item>
+        <item>University of Alberta</item>
+        <item>University of British Columbia</item>
+        <item>University of Sask</item>
+    </string-array>
+
+    <string-array name="cid">
+        <item>0</item>
+        <item>kEoXVA9</item>
+        <item>b1o5XeO</item>
+        <item>p8rMzAq</item>
+        <item>LMog1Aj</item>
+        <item>zkrB3AQ</item>
+        <item>VjAdlAv</item>
+        <item>2keNgov</item>
+    </string-array>
+
+
+</resources>

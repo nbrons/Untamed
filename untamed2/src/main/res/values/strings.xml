@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Untamed</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_settings">Logout</string>
+    <string name="action_new">New Message</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_message">New Message</string>
+    <string name="action_community">Community</string>
+    <string name="facebook_app_id">119215211592695</string>
+    <string name="title_activity_community_view">Community</string>
+    <string name="title_single_post">Single Post</string>
+
+</resources>

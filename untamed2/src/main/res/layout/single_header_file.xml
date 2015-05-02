@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e7e7e7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#262626"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/action_bar_toolbar"
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:background="#e7e7e7"
+        android:minHeight = "56dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+<TextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:textSize = "18dp"
+    android:textColor="#262626"
+    />
+
+<TextView
+    android:id="@+id/detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="48dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:fontFamily="serif"
+    android:textColor="#262626"
+    android:textSize="16sp" />
+
+<requestFocus/>
+</LinearLayout>
