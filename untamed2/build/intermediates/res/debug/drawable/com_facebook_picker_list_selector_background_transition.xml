@@ -18,4 +18,4 @@
     <item android:drawable="@drawable/com_facebook_picker_list_pressed"  />
     <item android:drawable="@drawable/com_facebook_picker_list_longpressed"  />
 </transition>
-<!-- From: file:/C:/Users/Nick/StudioProjects/Untamed2/facebookSDK/src/main/res/drawable/com_facebook_picker_list_selector_background_transition.xml --><!-- From: file:/C:/Users/Nick/StudioProjects/Untamed2/untamed2/build/intermediates/exploded-aar/Untamed2/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_background_transition.xml -->
+<!-- From: file:/C:/Users/Nick/workspace/Untamed/facebookSDK/src/main/res/drawable/com_facebook_picker_list_selector_background_transition.xml --><!-- From: file:/C:/Users/Nick/workspace/Untamed/untamed2/build/intermediates/exploded-aar/Untamed/facebookSDK/unspecified/res/drawable/com_facebook_picker_list_selector_background_transition.xml -->
