@@ -1703,7 +1703,7 @@ containing a value of this type.
         public static final int com_facebook_list_section_header_background=0x7f02004d;
         public static final int com_facebook_loginbutton_silver=0x7f02004e;
         public static final int com_facebook_logo=0x7f02004f;
-        public static final int com_facebook_picker_default_separator_color=0x7f020082;
+        public static final int com_facebook_picker_default_separator_color=0x7f020081;
         public static final int com_facebook_picker_item_background=0x7f020050;
         public static final int com_facebook_picker_list_focused=0x7f020051;
         public static final int com_facebook_picker_list_longpressed=0x7f020052;
@@ -1741,19 +1741,18 @@ containing a value of this type.
         public static final int ic_action_new=0x7f020072;
         public static final int ic_action_next_item=0x7f020073;
         public static final int ic_action_next_item_black=0x7f020074;
-        public static final int ic_action_previous_item=0x7f020075;
-        public static final int ic_action_refresh=0x7f020076;
-        public static final int ic_action_send=0x7f020077;
-        public static final int ic_action_settings=0x7f020078;
-        public static final int ic_action_warning=0x7f020079;
-        public static final int ic_launcher=0x7f02007a;
-        public static final int iconcircle=0x7f02007b;
-        public static final int open=0x7f02007c;
-        public static final int replied=0x7f02007d;
-        public static final int round_button_background=0x7f02007e;
-        public static final int untamed=0x7f02007f;
-        public static final int untamed_icon=0x7f020080;
-        public static final int untamedlog=0x7f020081;
+        public static final int ic_action_refresh=0x7f020075;
+        public static final int ic_action_send=0x7f020076;
+        public static final int ic_action_settings=0x7f020077;
+        public static final int ic_action_warning=0x7f020078;
+        public static final int ic_launcher=0x7f020079;
+        public static final int iconcircle=0x7f02007a;
+        public static final int open=0x7f02007b;
+        public static final int replied=0x7f02007c;
+        public static final int round_button_background=0x7f02007d;
+        public static final int untamed=0x7f02007e;
+        public static final int untamed_icon=0x7f02007f;
+        public static final int untamedlog=0x7f020080;
     }
     public static final class id {
         public static final int Location=0x7f0a007d;

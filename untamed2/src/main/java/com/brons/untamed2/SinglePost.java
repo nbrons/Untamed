@@ -137,7 +137,7 @@ public class SinglePost extends ActionBarActivity{
         Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar_toolbar);
         setSupportActionBar(toolbar);
 
-        toolbar.setNavigationIcon(R.drawable.ic_action_previous_item);
+        toolbar.setNavigationIcon(R.drawable.ic_action_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

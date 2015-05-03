@@ -10,172 +10,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fec9160-4ec6-44b0-9c1e-1542120a6a72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fr/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-lt/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-lt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zu/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-is-rIS/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-is-rIS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ko/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ko/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-tl/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-tl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sw/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-bn-rBD/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-bn-rBD/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ne-rNP/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ne-rNP/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-te-rIN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-te-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/melnykov/fab/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/melnykov/fab/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-de/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-de/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-land/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-bg/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-bg/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-nb/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-nb/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-am/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-am/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-af/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-af/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ta-rIN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ta-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_secondary_text_material_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_secondary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ca/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ca/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/R.txt" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/R.txt" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/find.recents.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/images.support.xml" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-efa87230f5a2af4a077be8a17ac2e1c0eef6444b.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-177e5f4a2ae52b3d7e58bc20418dcbc3869606ef.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-527bd4a5ee422aab972630de5e1a2161c0529301.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-8fd6ae8588b3ff5214ce79b923757915d6a8760d.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-d9039b87ee9eb97303c713ff97b0ed13f2538c4c.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-d90dd3b53b6b5d043af7fd2529faa14326c845d2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-fe6203a67a975563cc4ddc7eb2eeb7a779c3591d.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-454b51febf3b9c9df858eb0878a73db70ae0cc2a.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-4ec3c15ecd29e3f89e73c6a4403fdf3401df67fc.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\drawable-hdpi-v4\ic_action_previous_item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\drawable-mdpi-v4\ic_action_previous_item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\drawable-xhdpi-v4\ic_action_previous_item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-hdpi\ic_action_previous_item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-mdpi\ic_action_previous_item.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-xhdpi\ic_action_previous_item.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-mdpi\drawable-mdpi\ic_action_new.png" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-mdpi/ic_action_new.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$4.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$DeleteJSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$DeleteJSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$JSONParse$5$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$JSONParse$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$JSONParse$5.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$JSONParse$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$JSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$JSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$ReportJSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$ReportJSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$SendConfJSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$SendConfJSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$4.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$FBLoginTask.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$FBLoginTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$UserLoginTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse$4.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/NewMessage$JSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/NewMessage$JSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/NewMessage.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/NewMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$anim.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$array.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$attr.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/daimajia/swipe/R$attr.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/daimajia/swipe/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$attr.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$attr.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$bool.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$color.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$dimen.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$dimen.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$dimen.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$drawable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$drawable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$drawable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$id.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$id.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$integer.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$layout.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$layout.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$menu.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$string.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$string.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$string.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$style.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$style.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$styleable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/daimajia/swipe/R$styleable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/daimajia/swipe/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$styleable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$styleable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$xml.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SettingsActivity$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SettingsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SettingsActivity.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$3.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/drawable-hdpi-v4/ic_action_back.png" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/drawable-hdpi-v4/ic_action_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/drawable-mdpi-v4/ic_action_back.png" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/drawable-mdpi-v4/ic_action_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/drawable-xhdpi-v4/ic_action_back.png" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/drawable-xhdpi-v4/ic_action_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/drawable-hdpi/ic_action_back.png" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-hdpi/ic_action_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/drawable-mdpi/ic_action_back.png" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-mdpi/ic_action_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/drawable-xhdpi/ic_action_back.png" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-xhdpi/ic_action_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/pre-dexed/debug/library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/pre-dexed/debug/library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rCN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-mr-rIN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-mr-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-xlarge-land/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-xlarge-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/buildConfig/debug/com/brons/untamed2/BuildConfig.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/buildConfig/debug/com/brons/untamed2/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-el/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-el/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_check_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_check_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-cs/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-cs/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-vi/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-vi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-mk-rMK/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-mk-rMK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w720dp/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w720dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-lo-rLA/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-lo-rLA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ja/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ja/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ar/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ar/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ky-rKG/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ky-rKG/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-xlarge/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-eu-rES/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-eu-rES/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-km-rKH/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-km-rKH/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ms-rMY/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ms-rMY/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-kn-rIN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-kn-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w500dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_in_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v17/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v17/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout-v11/abc_screen_content_include.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout-v11/abc_screen_content_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_switch_thumb_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_switch_thumb_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ro/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ro/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w360dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-et-rEE/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-et-rEE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_disable_only_material_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_disable_only_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pt/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/facebook/android/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_content_include.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_content_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-in/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-in/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hy-rAM/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hy-rAM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_radio_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_radio_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_out_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hu/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_secondary_text_material_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_secondary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_out_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-gl-rES/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-gl-rES/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_edit_text_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_edit_text_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hr/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-kk-rKZ/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-kk-rKZ/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_top_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_top_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/facebookSDK/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-iw/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-iw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w480dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/daimajia/swipe/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/daimajia/swipe/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_textfield_search_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_textfield_search_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hi/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-hi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/buildConfig/androidTest/debug/com/brons/untamed2/test/BuildConfig.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/buildConfig/androidTest/debug/com/brons/untamed2/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_background_cache_hint_selector_material_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_background_cache_hint_selector_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ka-rGE/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ka-rGE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rHK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ml-rIN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ml-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sr/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_background_cache_hint_selector_material_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_background_cache_hint_selector_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/debug/com/facebook/android/BuildConfig.java" afterPath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/debug/com/facebook/android/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/aidl/android/support/v4/app/INotificationSideChannel.aidl" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/aidl/android/support/v4/app/INotificationSideChannel.aidl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-w600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-large/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-large/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/res/values/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pl/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-tr/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-tr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-si-rLK/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-si-rLK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pt-rPT/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sv/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es-rUS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-my-rMM/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-my-rMM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-uk/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-uk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/anim/abc_slide_in_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-da/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-da/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-it/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-it/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-uz-rUZ/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-uz-rUZ/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sw600dp/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-mn-rMN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-mn-rMN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v14/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-th/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-th/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sk/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/res/values/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-en-rIN/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-en-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zh-rTW/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-lv/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-lv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/androidTest/debug/com/facebook/android/test/BuildConfig.java" afterPath="$PROJECT_DIR$/facebookSDK/build/generated/source/buildConfig/androidTest/debug/com/facebook/android/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug-unaligned.apk" afterPath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug.apk" afterPath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/brons/untamed2/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/brons/untamed2/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sl/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-sl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/aapt/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ru/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ru/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_material_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-en-rGB/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/generated/source/r/androidTest/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/facebookSDK/build/generated/source/r/androidTest/debug/com/facebook/android/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/R.txt" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_disable_only_material_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_disable_only_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fa/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fa/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fi/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-nl/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-nl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fr-rCA/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-fr-rCA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-es/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_search_url_text.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_search_url_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_tab_indicator_material.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_tab_indicator_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_material_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-port/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-port/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ur-rPK/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-ur-rPK/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/single_post.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/single_post.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/untamed2.iml" afterPath="$PROJECT_DIR$/untamed2/untamed2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Untamed2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,32 +221,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="399" column="123" selection-start-line="399" selection-start-column="53" selection-end-line="399" selection-end-column="123" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#5336#5337#0" expanded="false" />
-                <element signature="e#5361#5362#0" expanded="false" />
-                <element signature="e#13584#13585#0" expanded="false" />
-                <element signature="e#13612#13613#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_community_view.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/activity_community_view.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="35" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -318,68 +248,35 @@
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="335" column="49" selection-start-line="335" selection-start-column="49" selection-end-line="335" selection-end-column="49" />
+              <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#5415#5416#0" expanded="false" />
-                <element signature="e#5455#5456#0" expanded="false" />
-                <element signature="e#15847#15848#0" expanded="false" />
-                <element signature="e#15893#15894#0" expanded="false" />
-                <element signature="e#16465#16466#0" expanded="false" />
-                <element signature="e#16519#16520#0" expanded="false" />
-                <element signature="e#16662#16663#0" expanded="false" />
-                <element signature="e#16727#16728#0" expanded="false" />
+                <element signature="e#5315#5458#0" expanded="true" />
+                <element signature="e#5457#5458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.058553386">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single_post.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="single_post.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.4857143">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single_footer_file.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_footer_file.xml">
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single_header_file.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_header_file.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -403,6 +300,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -1716,6 +1616,14 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -1758,7 +1666,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -1777,6 +1685,201 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-mdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1819,6 +1922,46 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ic_action_back.png" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untamed2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -1828,39 +1971,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -1883,15 +1993,18 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-mdpi" />
+      <recent name="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-xhdpi" />
       <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\layout" />
       <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\drawable-xhdpi" />
-      <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\drawable-mdpi" />
-      <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\drawable-hdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\drawable-xhdpi" />
       <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\Nick\StudioProjects\Untamed2\untamed2\src\main\res\drawable-hdpi" />
@@ -2102,7 +2215,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430556626624</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="still pushin'">
+      <created>1430557446369</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1430557446369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2116,27 +2235,27 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2102336" sideWeight="0.5063966" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15795328" sideWeight="0.4936034" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15795328" sideWeight="0.4936034" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946696" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2458287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2155,7 +2274,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I honestly don't know what this is LOL&#10;" />
     <MESSAGE value="really? my third push and nothing has changed LOL&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="really? my third push and nothing has changed LOL&#10;" />
+    <MESSAGE value="still pushin'" />
+    <option name="LAST_COMMIT_MESSAGE" value="still pushin'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2164,13 +2284,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2417,14 +2530,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/makepost.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values/strings.xml">
@@ -2479,36 +2592,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23394495">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.448276">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/activity_community_view.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/activity_community_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java">
@@ -2523,62 +2636,60 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_header_file.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_footer_file.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_footer_file.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/drawable-mdpi/ic_action_new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="335" column="49" selection-start-line="335" selection-start-column="49" selection-end-line="335" selection-end-column="49" />
+          <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5415#5416#0" expanded="false" />
-            <element signature="e#5455#5456#0" expanded="false" />
-            <element signature="e#15847#15848#0" expanded="false" />
-            <element signature="e#15893#15894#0" expanded="false" />
-            <element signature="e#16465#16466#0" expanded="false" />
-            <element signature="e#16519#16520#0" expanded="false" />
-            <element signature="e#16662#16663#0" expanded="false" />
-            <element signature="e#16727#16728#0" expanded="false" />
+            <element signature="e#5315#5458#0" expanded="true" />
+            <element signature="e#5457#5458#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Helper.java">
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058553386">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.4857143">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

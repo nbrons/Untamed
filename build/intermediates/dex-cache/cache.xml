@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\Untamed2\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-efa87230f5a2af4a077be8a17ac2e1c0eef6444b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\classes-177e5f4a2ae52b3d7e58bc20418dcbc3869606ef.jar" />
-    </item>
-    <item
-        jar="D:\Program Files\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-4ec3c15ecd29e3f89e73c6a4403fdf3401df67fc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-454b51febf3b9c9df858eb0878a73db70ae0cc2a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\classes-8fd6ae8588b3ff5214ce79b923757915d6a8760d.jar" />
-    </item>
-    <item
         jar="C:\Users\Nick\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" />
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" />
     </item>
     <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\Untamed2\facebookSDK\unspecified\classes.jar"
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="b29843706f908d07b4523af32bcd566e0a724f4f">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\classes-d90dd3b53b6b5d043af7fd2529faa14326c845d2.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-e944464b0b51940f49255b0bb84e430294d8e665.jar" />
     </item>
     <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-f5d684dc7a05691f704c72af0e15d3cee41dde71.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f0c9fc5ec833eba35f86bcc5efcd9452e820aca5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-31cbcadeb4730346cb2052a5568e46d42b90f74c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\Untamed\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-957bdafed40c8b606ee3b48f8ece605d6e2ecd7c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\classes-527bd4a5ee422aab972630de5e1a2161c0529301.jar" />
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-eb2995408f19b6aff510c3a0f43e65c1257ed8c9.jar" />
     </item>
     <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\com.daimajia.swipelayout\library\1.2.0\classes.jar"
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.daimajia.swipelayout\library\1.2.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\classes-fe6203a67a975563cc4ddc7eb2eeb7a779c3591d.jar" />
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-3fc5ae82968ad277696a0cafdb72b7f1b4b17cb3.jar" />
     </item>
     <item
-        jar="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="C:\Users\Nick\StudioProjects\Untamed2\untamed2\build\intermediates\pre-dexed\debug\classes-d9039b87ee9eb97303c713ff97b0ed13f2538c4c.jar" />
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-231bee29e47cf10a8d0c1da01d6746561ee563b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\Untamed\facebookSDK\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="75a77a193e5d4f6957362f53ebddabd302c7511f">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-007b4180e0fa06ca4cdd05f27cfc19703e572fd5.jar" />
     </item>
 
 </items>
