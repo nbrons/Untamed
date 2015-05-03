@@ -1,7 +1,9 @@
 package com.brons.untamed2;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -21,6 +23,8 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
@@ -171,6 +175,52 @@ public class SinglePost extends ActionBarActivity{
         time.setText(post.get("time_posted"));
 
         list = (ListView) findViewById(R.id.list_comments);
+
+
+        ImageButton sendbutton = (ImageButton) findViewById(R.id.btn_detail_add_comment);
+
+        sendbutton.setOnClickListener(new View.OnClickListener(){
+            final CharSequence[] items = {"Me","Anonymous"};
+            @Override
+            public void onClick(View v) {
+                EditText stuff = (EditText) findViewById(R.id.detail_comment);
+                final String text = stuff.getText().toString();
+
+                if (text.length() < 3) {
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Comment is too short!",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                } else {
+
+                    AlertDialog.Builder builder = new AlertDialog.Builder(SinglePost.this);
+                    builder.setTitle("Who do you want to post as?");
+                    builder.setSingleChoiceItems(items, -1, new DialogInterface.OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int item) {
+
+                            switch (item) {
+                                case 0:
+                                    new Comment().execute(pid, "me", text);
+                                    break;
+                                case 1:
+                                    new Comment().execute(pid, "anon", text);
+                                    break;
+                            }
+
+                        }
+
+                    });
+
+                    builder.create();
+                }
+            }
+        });
+
 
         new JSONParse().execute(pid);
     }
@@ -391,13 +441,6 @@ public class SinglePost extends ActionBarActivity{
         }
     }
 
-
-
-
-
-
-
-
     private class Vote extends AsyncTask<String, String, JSONObject> {
         @Override
         protected void onPreExecute() {			//before executing
@@ -454,6 +497,69 @@ public class SinglePost extends ActionBarActivity{
                 });
             }else{
                 // Log.i("option selected", json.toString());
+            }
+
+
+        }}
+
+
+    private class Comment extends AsyncTask<String, String, JSONObject> {
+        @Override
+        protected void onPreExecute() {			//before executing
+            super.onPreExecute();
+        }
+
+        @Override
+        protected JSONObject doInBackground(String... args) {	//do in background while the process is executing
+            JSONParser jParser = new JSONParser();					//creates a new JSONParser object
+            // Getting JSON from URL
+            if(isNetworkAvailable()){								//as long as the network is available
+                JSONObject json = null;				//creates a new JSONObject
+                try {
+                    int cid = prefs.getInt("comid", -1);
+                    String token = prefs.getString("access_token", null);
+                    if(token!=null)
+
+                        json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_comment", token, args[0] , args[1], args[2], false);
+                } catch (IOException | JSONException e) {		//catches specific exceptions
+                    return null;
+                }
+
+                return json;								//returns the JSON object
+            }
+
+            else{
+                JSONObject json;
+                try {
+                    json = new JSONObject(getStringProperty("json"));
+                    return json;
+                } catch (JSONException e) {
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Error Loading Confession",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
+                //TODO: implement proper offline handling. Currently does not handle disconnection from network
+
+                return null;
+            }
+        }
+        @Override
+        protected void onPostExecute(JSONObject json) {
+            if(json ==null){
+                runOnUiThread(new Runnable() {				//Toast message claiming Error with loading the data
+                    public void run() {
+                        Toast.makeText(getApplicationContext(),
+                                "Cannot retrieve post. Please try again later or contact the admins",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }else{
+                commentlist.clear();
+                new JSONParse().execute(pid);
             }
 
 

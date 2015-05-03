@@ -396,4 +396,31 @@ public class JSONParser {
 		return jObj;
 	}
 
+	public JSONObject getJSONFromUrl(String url, String token, String post_id, String post_as, String text, boolean n) throws IOException, JSONException {
+		//Session session = Session.getActiveSession();
+		//String accessToken = session.getAccessToken();
+
+		//new Comment().execute(pid, "me", text);
+
+		// Making HTTP request
+		String urlParameters = "session_token"+token+"&post_as="+post_as+"&post_id="+post_id+"&text="+text;
+		URL url2 = new URL(url);
+		URLConnection conn = url2.openConnection();
+
+		conn.setDoOutput(true);
+
+		OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
+
+		writer.write(urlParameters);
+		writer.flush();
+
+		BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+		String json = reader.readLine();
+		JSONTokener tokener = new JSONTokener(json);
+		jObj = new JSONObject(tokener);
+
+		// return JSON String
+		return jObj;
+	}
+
 	}

@@ -85,6 +85,8 @@
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@id/btn_detail_add_comment"
             android:layout_toStartOf="@id/btn_detail_add_comment"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
             android:hint="Add a comment... "
             android:imeOptions="actionDone"
             android:inputType="textCapSentences" />
