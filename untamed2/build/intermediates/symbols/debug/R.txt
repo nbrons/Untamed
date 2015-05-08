@@ -521,7 +521,7 @@ int id actionbar_notifcation_textview 0x7f0a0082
 int id activity_chooser_view_content 0x7f0a002f
 int id always 0x7f0a0017
 int id avatar 0x7f0a0076
-int id avatarimg 0x7f0a0087
+int id avatarimg 0x7f0a0088
 int id befair 0x7f0a007f
 int id beginning 0x7f0a0014
 int id bottom 0x7f0a001e
@@ -602,12 +602,12 @@ int id login_progress 0x7f0a0052
 int id logo 0x7f0a0055
 int id middle 0x7f0a0016
 int id mini 0x7f0a0013
-int id name 0x7f0a0088
+int id name 0x7f0a0089
 int id never 0x7f0a001a
 int id none 0x7f0a000e
 int id normal 0x7f0a000a
 int id password 0x7f0a0057
-int id photo 0x7f0a0089
+int id photo 0x7f0a008a
 int id picker_subtitle 0x7f0a006a
 int id pid 0x7f0a0085
 int id postdata 0x7f0a007e
@@ -646,7 +646,7 @@ int id top 0x7f0a0021
 int id tv_detail_compliment_username 0x7f0a0092
 int id up 0x7f0a0008
 int id useLogo 0x7f0a0012
-int id vote 0x7f0a008a
+int id vote 0x7f0a0087
 int id withText 0x7f0a001b
 int id wrap_content 0x7f0a0024
 int integer abc_max_action_buttons 0x7f0b0000

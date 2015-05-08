@@ -18,6 +18,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.Spanned;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Gravity;
@@ -49,7 +51,7 @@ public class SinglePost extends ActionBarActivity{
     SharedPreferences prefs;
     String pid;
     ListView list;
-    ArrayList<HashMap<String, String>> commentlist = new ArrayList<HashMap<String, String>>();	//ArrayList of the posts
+    ArrayList<HashMap<String, String>> commentlist = new ArrayList<>();	//ArrayList of the posts
     Hashtable<String, String> font;			//Hashtable of the font, correlating the imported symbol and it's hex code
     Typeface typeFace;						//font for symbols (user icons)
     String has_voted;
@@ -64,7 +66,7 @@ public class SinglePost extends ActionBarActivity{
 
         typeFace = Typeface.createFromAsset(this.getAssets(), "fonts/font.ttf");	//initializes typeface
 
-        font = new Hashtable<String,String>();	//implements hash table of all the characters in the font
+        font = new Hashtable<>();	//implements hash table of all the characters in the font
         font.put("mask-alien6", "\ue000");
         font.put("mask-android11", "\ue001");
         font.put("mask-apple53", "\ue002");
@@ -300,15 +302,15 @@ public class SinglePost extends ActionBarActivity{
                     });
                 }  else {
                     Log.i("option selected", json.toString());
-                    JSONArray array =null;
-                    JSONObject data = new JSONObject();
+                    JSONArray array;
+                    JSONObject data;
                     data = json.getJSONObject("data");
                     array = data.getJSONArray("comments");
 
                     for(int i=0; i<array.length(); i++) {
                         JSONObject c = array.getJSONObject(i);
 
-                        HashMap<String, String> map = new HashMap<String, String>();
+                        HashMap<String, String> map = new HashMap<>();
                         map.put("id", c.getString("id"));
                         map.put("author", c.getString("author"));
 
@@ -319,14 +321,14 @@ public class SinglePost extends ActionBarActivity{
 
                         map.put("text", tmp);
                         map.put("has_voted", c.getString("has_voted"));
-                        map.put("like_count", c.getString("like_count"));
+                        map.put("like_count", "Votes: "+ c.getString("like_count"));
                         map.put("is_author", c.getString("is_author"));
                         map.put("pid", c.getString("pid"));
                         map.put("created_time", c.getString("created_time"));
                         map.put("relative_time", c.getString("relative_time"));
 
                         JSONObject mask = null;
-                        JSONObject author = null;
+                        JSONObject author;
                         try{
                             mask = c.getJSONObject("mask");
                         }catch (JSONException ignored){}
@@ -375,7 +377,16 @@ public class SinglePost extends ActionBarActivity{
                                 text.getBackground().setColorFilter(Color.parseColor(s), PorterDuff.Mode.MULTIPLY);    //sets background
                             }
                             TextView summText = (TextView) view.findViewById(R.id.text);		//sets textview content size
+
+                            if(name!=null){
+                                String temp = summText.getText().toString().replaceAll("\n","<br>");
+                                Spanned bolded = Html.fromHtml("<b>"+name+"</b>: "+temp);
+                                summText.setText(bolded);
+
+                            }
+
                             summText.setTextSize(16);
+
 
                             return view;
                         }
@@ -388,7 +399,7 @@ public class SinglePost extends ActionBarActivity{
 
 
             } catch (JSONException e) {
-
+                Log.i("you hooped", "mr. hooped");
             }
         }
 
@@ -496,7 +507,7 @@ public class SinglePost extends ActionBarActivity{
                     }
                 });
             }else{
-                // Log.i("option selected", json.toString());
+                
             }
 
 

@@ -1775,7 +1775,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0a002f;
         public static final int always=0x7f0a0017;
         public static final int avatar=0x7f0a0076;
-        public static final int avatarimg=0x7f0a0087;
+        public static final int avatarimg=0x7f0a0088;
         public static final int befair=0x7f0a007f;
         public static final int beginning=0x7f0a0014;
         public static final int bottom=0x7f0a001e;
@@ -1856,12 +1856,12 @@ containing a value of this type.
         public static final int logo=0x7f0a0055;
         public static final int middle=0x7f0a0016;
         public static final int mini=0x7f0a0013;
-        public static final int name=0x7f0a0088;
+        public static final int name=0x7f0a0089;
         public static final int never=0x7f0a001a;
         public static final int none=0x7f0a000e;
         public static final int normal=0x7f0a000a;
         public static final int password=0x7f0a0057;
-        public static final int photo=0x7f0a0089;
+        public static final int photo=0x7f0a008a;
         public static final int picker_subtitle=0x7f0a006a;
         public static final int pid=0x7f0a0085;
         public static final int postdata=0x7f0a007e;
@@ -1900,7 +1900,7 @@ containing a value of this type.
         public static final int tv_detail_compliment_username=0x7f0a0092;
         public static final int up=0x7f0a0008;
         public static final int useLogo=0x7f0a0012;
-        public static final int vote=0x7f0a008a;
+        public static final int vote=0x7f0a0087;
         public static final int withText=0x7f0a001b;
         public static final int wrap_content=0x7f0a0024;
     }
