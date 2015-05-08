@@ -1781,7 +1781,7 @@ containing a value of this type.
         public static final int bottom=0x7f0a001e;
         public static final int bottom_wrapper=0x7f0a0083;
         public static final int box_count=0x7f0a0025;
-        public static final int btn_detail_add_comment=0x7f0a008b;
+        public static final int btn_detail_add_comment=0x7f0a008c;
         public static final int button=0x7f0a0026;
         public static final int cancel=0x7f0a0081;
         public static final int center=0x7f0a0029;
@@ -1815,8 +1815,8 @@ containing a value of this type.
         public static final int comments=0x7f0a0078;
         public static final int decor_content_parent=0x7f0a003d;
         public static final int default_activity_button=0x7f0a0032;
-        public static final int detail=0x7f0a008d;
-        public static final int detail_comment=0x7f0a008c;
+        public static final int detail=0x7f0a008e;
+        public static final int detail_comment=0x7f0a008d;
         public static final int dialog=0x7f0a001c;
         public static final int disableHome=0x7f0a000c;
         public static final int dropdown=0x7f0a001d;
@@ -1843,13 +1843,13 @@ containing a value of this type.
         public static final int isauth=0x7f0a0086;
         public static final int large=0x7f0a002a;
         public static final int lay_down=0x7f0a0022;
-        public static final int layout_add_comment=0x7f0a008a;
-        public static final int layout_detail_main=0x7f0a008e;
+        public static final int layout_add_comment=0x7f0a008b;
+        public static final int layout_detail_main=0x7f0a008f;
         public static final int left=0x7f0a001f;
         public static final int likes=0x7f0a0079;
         public static final int list=0x7f0a0050;
         public static final int listMode=0x7f0a0009;
-        public static final int list_comments=0x7f0a008f;
+        public static final int list_comments=0x7f0a0090;
         public static final int list_item=0x7f0a0033;
         public static final int login_form=0x7f0a0053;
         public static final int login_progress=0x7f0a0052;
@@ -1900,7 +1900,7 @@ containing a value of this type.
         public static final int tv_detail_compliment_username=0x7f0a0092;
         public static final int up=0x7f0a0008;
         public static final int useLogo=0x7f0a0012;
-        public static final int vote=0x7f0a0090;
+        public static final int vote=0x7f0a008a;
         public static final int withText=0x7f0a001b;
         public static final int wrap_content=0x7f0a0024;
     }

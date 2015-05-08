@@ -527,7 +527,7 @@ int id beginning 0x7f0a0014
 int id bottom 0x7f0a001e
 int id bottom_wrapper 0x7f0a0083
 int id box_count 0x7f0a0025
-int id btn_detail_add_comment 0x7f0a008b
+int id btn_detail_add_comment 0x7f0a008c
 int id button 0x7f0a0026
 int id cancel 0x7f0a0081
 int id center 0x7f0a0029
@@ -561,8 +561,8 @@ int id com_facebook_usersettingsfragment_profile_name 0x7f0a0073
 int id comments 0x7f0a0078
 int id decor_content_parent 0x7f0a003d
 int id default_activity_button 0x7f0a0032
-int id detail 0x7f0a008d
-int id detail_comment 0x7f0a008c
+int id detail 0x7f0a008e
+int id detail_comment 0x7f0a008d
 int id dialog 0x7f0a001c
 int id disableHome 0x7f0a000c
 int id dropdown 0x7f0a001d
@@ -589,13 +589,13 @@ int id inline 0x7f0a0028
 int id isauth 0x7f0a0086
 int id large 0x7f0a002a
 int id lay_down 0x7f0a0022
-int id layout_add_comment 0x7f0a008a
-int id layout_detail_main 0x7f0a008e
+int id layout_add_comment 0x7f0a008b
+int id layout_detail_main 0x7f0a008f
 int id left 0x7f0a001f
 int id likes 0x7f0a0079
 int id list 0x7f0a0050
 int id listMode 0x7f0a0009
-int id list_comments 0x7f0a008f
+int id list_comments 0x7f0a0090
 int id list_item 0x7f0a0033
 int id login_form 0x7f0a0053
 int id login_progress 0x7f0a0052
@@ -646,7 +646,7 @@ int id top 0x7f0a0021
 int id tv_detail_compliment_username 0x7f0a0092
 int id up 0x7f0a0008
 int id useLogo 0x7f0a0012
-int id vote 0x7f0a0090
+int id vote 0x7f0a008a
 int id withText 0x7f0a001b
 int id wrap_content 0x7f0a0024
 int integer abc_max_action_buttons 0x7f0b0000
