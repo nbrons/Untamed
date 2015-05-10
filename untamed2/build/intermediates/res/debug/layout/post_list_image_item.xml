@@ -104,7 +104,7 @@
         </LinearLayout>
 
         <ImageButton
-            android:src="@drawable/ic_action_next_item_black"
+            android:src="@drawable/ic_action_next_item"
             android:id="@+id/vote"
             android:background="@null"
             android:layout_width="60dp"

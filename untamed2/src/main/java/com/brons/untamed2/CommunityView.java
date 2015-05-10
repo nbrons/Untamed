@@ -497,7 +497,7 @@ public class CommunityView extends ActionBarActivity {
 
                 	      View view = super.getView(position, convertView, parent);
                 	      TextView text = (TextView) view.findViewById(R.id.avatar);		//gets textview for avatar
-                	      TextView hex = (TextView) view.findViewById(R.id.hexname);		//hidden textview
+                	      TextView hex = (TextView) view.findViewById(R.id.hexname);		//avatar textview
                 	      String s = hex.getText().toString();								//converts hex value to string
                 	      	text.setTextColor(Color.parseColor(s));							//sets the color to the given color
                 	        text.setTypeface(typeFace);										//sets the typeface to the typeface
