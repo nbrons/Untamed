@@ -507,7 +507,7 @@ public class SinglePost extends ActionBarActivity{
                     }
                 });
             }else{
-                
+
             }
 
 
