@@ -7,27 +7,27 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="option selected" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fec9160-4ec6-44b0-9c1e-1542120a6a72" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$DownloadImageTask.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$DownloadImageTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$2.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$3.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$JSONParse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote$2.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost$Vote.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug-unaligned.apk" afterPath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug.apk" afterPath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java" />
-      <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/find.recents.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/find.recents.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_image_item.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_image_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_image_item.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_image_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_item_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_item_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/single_post.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/single_post.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Untamed2.iws" />
@@ -134,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SinglePost.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SinglePost.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="384" column="0" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6702356">
+              <caret line="209" column="36" selection-start-line="209" selection-start-column="36" selection-end-line="209" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +159,7 @@
       <file leaf-file-name="single_post.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-65.655174">
+            <state vertical-scroll-proportion="0.0">
               <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
               <folding />
             </state>
@@ -172,7 +172,7 @@
       <file leaf-file-name="post_list_item.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.586206">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
@@ -182,11 +182,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_list_image_item.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_list_image_item.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_image_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27716535">
-              <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+            <state vertical-scroll-proportion="-3.5172415">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -198,7 +198,7 @@
       <file leaf-file-name="post_list_item_dark.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.655172">
+            <state vertical-scroll-proportion="0.0">
               <caret line="136" column="54" selection-start-line="136" selection-start-column="54" selection-end-line="136" selection-end-column="54" />
               <folding />
             </state>
@@ -1549,12 +1549,12 @@
       <list>
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml" />
-        <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Helper.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_image_item.xml" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
       </list>
     </option>
   </component>
@@ -1569,10 +1569,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="911" />
+    <option name="y" value="148" />
+    <option name="width" value="960" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1619,19 +1619,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1742,6 +1729,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -1800,6 +1790,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2088,11 +2088,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431283031188</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fxied some visuals and UI issues">
+      <created>1431287250071</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1431287250071</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="911" y="148" width="960" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -2107,11 +2113,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23025584" sideWeight="0.4936034" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28317374" sideWeight="0.4936034" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14498934" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25854993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30222222" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2125,6 +2130,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25854993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2144,7 +2150,9 @@
     <MESSAGE value="still pushin'" />
     <MESSAGE value="fixed SinglePost again" />
     <MESSAGE value="Added a non-functional vote button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a non-functional vote button" />
+    <MESSAGE value="Fxied some visuals and UI issues" />
+    <MESSAGE value="Can now post comments as anon or yourself. API call doesn't work lol goddamit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can now post comments as anon or yourself. API call doesn't work lol goddamit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2480,23 +2488,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.586206">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="384" column="0" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java">
@@ -2509,7 +2507,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-65.655174">
+        <state vertical-scroll-proportion="0.0">
           <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
           <folding />
         </state>
@@ -2525,7 +2523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.655172">
+        <state vertical-scroll-proportion="0.0">
           <caret line="136" column="54" selection-start-line="136" selection-start-column="54" selection-end-line="136" selection-end-column="54" />
           <folding />
         </state>
@@ -2536,13 +2534,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_image_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27716535">
-          <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+        <state vertical-scroll-proportion="-3.5172415">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6702356">
+          <caret line="209" column="36" selection-start-line="209" selection-start-column="36" selection-end-line="209" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

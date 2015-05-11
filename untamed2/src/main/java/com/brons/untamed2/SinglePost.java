@@ -219,6 +219,7 @@ public class SinglePost extends ActionBarActivity{
                     });
 
                     builder.create();
+                    builder.show();
                 }
             }
         });
