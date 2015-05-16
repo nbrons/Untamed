@@ -69,6 +69,11 @@
             android:parentActivityName="com.brons.untamed2.CommunityView" >
         </activity>
         <activity
+            android:name="com.brons.untamed2.About"
+            android:label="About"
+            android:parentActivityName="com.brons.untamed2.CommunityView" >
+        </activity>
+        <activity
             android:name="android.support.v7.widget.TestActivity"
             android:label="RecyclerViewTestActivity" />
     </application>

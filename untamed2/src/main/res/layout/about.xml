@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/action_bar_toolbar"
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:background="#262626"
+        android:minHeight = "56dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:text="Copyright Untamed, 2015.\nDeveloped by Osiris R. \nApp created by Nick B. "/>
+
+</LinearLayout>

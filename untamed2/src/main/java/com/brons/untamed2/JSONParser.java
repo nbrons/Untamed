@@ -3,6 +3,8 @@
 
 package com.brons.untamed2;
 
+import android.util.Log;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -234,8 +236,6 @@ public class JSONParser {
 	   * @throws JSONException
 	   */
 	  public JSONObject getJSONFromUrl(String url, String token, String cid, String type, String geo_lat, String geo_lon, int p) throws IOException, JSONException {
-		  //Session session = Session.getActiveSession();
-		  //String accessToken = session.getAccessToken();
 
 		  String urlParameters = "";
 	    // Making HTTP request
@@ -266,7 +266,7 @@ public class JSONParser {
 	  }
 	  
 	  /***
-	   * gets individual post
+	   * REPORTING AND DELETING
 	   * @param url
 	   * @param token
 	   * @param pid
@@ -276,12 +276,14 @@ public class JSONParser {
 	   * @throws JSONException
 	   */
 	  public JSONObject getJSONFromUrl(String url, String token, String pid, int n) throws IOException, JSONException {
-		  //Session session = Session.getActiveSession();
-		  //String accessToken = session.getAccessToken();
-
-		  
 	    // Making HTTP request
-		  String urlParameters = "session_token="+token+"&post_id="+pid;
+          String urlParameters = "";
+          if(n==1){
+              urlParameters = "session_token="+token+"&comment_id="+pid;
+          }else{
+              urlParameters = "session_token="+token+"&post_id="+pid;
+          }
+
 		  URL url2 = new URL(url);
 		  URLConnection conn = url2.openConnection();
 
@@ -291,11 +293,12 @@ public class JSONParser {
 
 		  writer.write(urlParameters);
 		  writer.flush();
-		  
+
 		  BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 		  String json = reader.readLine();
 		  JSONTokener tokener = new JSONTokener(json);
 		  jObj = new JSONObject(tokener);
+          Log.i("option selected", jObj.toString());
 
 	    // return JSON String
 	    return jObj;
@@ -369,39 +372,20 @@ public class JSONParser {
 	    return jObj;
 	  }
 
-
-	public JSONObject getJSONFromUrl(String url, String token, String parent_type, String parent_id, boolean n) throws IOException, JSONException {
-		//Session session = Session.getActiveSession();
-		//String accessToken = session.getAccessToken();
-
-
-		// Making HTTP request
-		String urlParameters = "session_token"+token+"&parent_type="+parent_type+"&parent_id"+parent_id;
-		URL url2 = new URL(url);
-		URLConnection conn = url2.openConnection();
-
-		conn.setDoOutput(true);
-
-		OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
-
-		writer.write(urlParameters);
-		writer.flush();
-
-		BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-		String json = reader.readLine();
-		JSONTokener tokener = new JSONTokener(json);
-		jObj = new JSONObject(tokener);
-
-		// return JSON String
-		return jObj;
-	}
-
+	/**
+	 *
+	 * FOR MAKING A NEW COMMENT
+	 * @param url
+	 * @param token
+	 * @param post_id
+	 * @param post_as
+	 * @param text
+	 * @param n
+	 * @return
+	 * @throws IOException
+	 * @throws JSONException
+	 */
 	public JSONObject getJSONFromUrl(String url, String token, String post_id, String post_as, String text, boolean n) throws IOException, JSONException {
-		//Session session = Session.getActiveSession();
-		//String accessToken = session.getAccessToken();
-
-		//new Comment().execute(pid, "me", text);
-
 		// Making HTTP request
 		String urlParameters = "session_token"+token+"&post_as="+post_as+"&post_id="+post_id+"&text="+text;
 		URL url2 = new URL(url);
@@ -419,8 +403,46 @@ public class JSONParser {
 		JSONTokener tokener = new JSONTokener(json);
 		jObj = new JSONObject(tokener);
 
+        Log.i("option selected", jObj.toString());
+
 		// return JSON String
 		return jObj;
 	}
+
+
+    /**
+     * FOR VOTING
+     * @param url
+     * @param token
+     * @param parent_type
+     * @param parent_id
+     * @param n
+     * @return
+     * @throws IOException
+     * @throws JSONException
+     */
+    public JSONObject getJSONFromUrl(String url, String token, String parent_type, String parent_id, boolean n) throws IOException, JSONException {
+
+        // Making HTTP request
+        String urlParameters = "session_token"+token+"&parent_type="+parent_type+"&parent_id"+parent_id;
+        URL url2 = new URL(url);
+        URLConnection conn = url2.openConnection();
+
+        conn.setDoOutput(true);
+
+        OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
+
+        writer.write(urlParameters);
+        writer.flush();
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        String json = reader.readLine();
+        JSONTokener tokener = new JSONTokener(json);
+        jObj = new JSONObject(tokener);
+
+        Log.i("option selected", jObj.toString());
+        // return JSON String
+        return jObj;
+    }
 
 	}

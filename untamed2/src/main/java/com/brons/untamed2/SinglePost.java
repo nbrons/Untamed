@@ -31,6 +31,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -51,13 +52,12 @@ public class SinglePost extends ActionBarActivity{
     SharedPreferences prefs;
     String pid;
     ListView list;
-    ArrayList<HashMap<String, String>> commentlist = new ArrayList<>();	//ArrayList of the posts
+    ArrayList<HashMap<String, String>> commentList = new ArrayList<>();	//ArrayList of the posts
     Hashtable<String, String> font;			//Hashtable of the font, correlating the imported symbol and it's hex code
     Typeface typeFace;						//font for symbols (user icons)
     String has_voted;
     String hex;
     String dark_hex;
-
 
 
     protected void onCreate(Bundle savedInstanceState){
@@ -136,9 +136,6 @@ public class SinglePost extends ActionBarActivity{
         LinearLayout ll = (LinearLayout) findViewById(R.id.layout_detail_main);
         ll.setBackgroundColor(Color.parseColor("#e7e7e7"));
 
-      //  ImageButton send = (ImageButton) findViewById(R.id.btn_detail_add_comment);
-      //  send.setColorFilter(Color.parseColor(dark_hex));
-
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.action_bar_toolbar);
         setSupportActionBar(toolbar);
@@ -159,7 +156,7 @@ public class SinglePost extends ActionBarActivity{
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new Vote().execute(pid);
+                new Vote().execute(pid, "post");
                 setfabBackground(has_voted, hex, dark_hex);
                 if (has_voted.equalsIgnoreCase("false"))
                     has_voted = "true";
@@ -208,9 +205,11 @@ public class SinglePost extends ActionBarActivity{
                             switch (item) {
                                 case 0:
                                     new Comment().execute(pid, "me", text);
+                                    dialog.dismiss();
                                     break;
                                 case 1:
                                     new Comment().execute(pid, "anon", text);
+                                    dialog.dismiss();
                                     break;
                             }
 
@@ -233,10 +232,15 @@ public class SinglePost extends ActionBarActivity{
         if(has_voted.equalsIgnoreCase("false")){
             fab.setColorNormal(Color.parseColor("#e7e7e7"));
             fab.setColorPressed(Color.parseColor("#262626"));
+            fab.setImageResource(R.drawable.ic_action_next_item_black);
         }
         else{
             fab.setColorNormal(Color.parseColor("#262626"));
-            fab.setColorPressed(Color.parseColor("#e7e7e7"));        }
+            fab.setColorPressed(Color.parseColor("#e7e7e7"));
+            fab.setImageResource(R.drawable.ic_action_next_item);
+
+            new Vote().execute(pid, "post");
+        }
     }
 
     private class JSONParse extends AsyncTask<String, String, JSONObject> {
@@ -282,7 +286,6 @@ public class SinglePost extends ActionBarActivity{
                         }
                     });
                 }
-                //TODO: implement proper offline handling. Currently does not handle disconnection from network
 
                 return null;
             }
@@ -322,7 +325,8 @@ public class SinglePost extends ActionBarActivity{
 
                         map.put("text", tmp);
                         map.put("has_voted", c.getString("has_voted"));
-                        map.put("like_count", "Votes: "+ c.getString("like_count"));
+                        map.put("likesonly", c.getString("like_count"));
+                        map.put("like_count", c.getString("like_count")+" Votes");
                         map.put("is_author", c.getString("is_author"));
                         map.put("pid", c.getString("pid"));
                         map.put("created_time", c.getString("created_time"));
@@ -345,31 +349,31 @@ public class SinglePost extends ActionBarActivity{
 
                         }
 
-                        commentlist.add(map);
+                        commentList.add(map);
 
 
 
                     }
 
-                    ListAdapter adapter = new SimpleAdapter(SinglePost.this, commentlist, R.layout.post_list_item_dark, (new String[] {"text", "like_count",
-                            "mask_class", "mask_hex", "relative_time", "pid", "is_author",}),
-                            (new int[] {R.id.text, R.id.likes, R.id.avatar, R.id.hexname, R.id.expires, R.id.pid, R.id.isauth})){
+                    ListAdapter adapter = new SimpleAdapter(SinglePost.this, commentList, R.layout.post_list_item_dark, (new String[] {"text", "like_count",
+                            "mask_class", "relative_time"}),
+                            (new int[] {R.id.text, R.id.likes, R.id.avatar, R.id.expires})){
 
 
                         @Override
-                        public View getView(int position, View convertView, ViewGroup parent){
+                        public View getView(final int position, View convertView, ViewGroup parent){
                             View view = super.getView(position, convertView, parent);
-                            String name = commentlist.get(position).get("name");
+                            String name = commentList.get(position).get("name");
                             TextView text = (TextView) view.findViewById(R.id.avatar);        //gets textview for avatar
                             ImageView img = (ImageView) view.findViewById(R.id.avatarimg);
+                            ImageButton comVote = (ImageButton) view.findViewById(R.id.comvote);
                             if(name!=null){
                                     text.setVisibility(View.GONE);
                                     img.setVisibility(View.VISIBLE);
-                                    String photo = commentlist.get(position).get("photo");
+                                    String photo = commentList.get(position).get("photo");
                                     new DownloadImageTask(img).execute(photo);
                             }else {
-                                TextView hex = (TextView) view.findViewById(R.id.hexname);        //hidden textview
-                                String s = hex.getText().toString();                                //converts hex value to string
+                                String s = commentList.get(position).get("mask_hex");
                                 text.setTextColor(Color.parseColor(s));                            //sets the color to the given color
                                 text.setTypeface(typeFace);                                        //sets the typeface to the typeface
                                 text.setTextSize(40);                                            //sets size
@@ -388,6 +392,51 @@ public class SinglePost extends ActionBarActivity{
 
                             summText.setTextSize(16);
 
+                            RelativeLayout relative = (RelativeLayout) view.findViewById(R.id.bottom_wrapper);
+                            ImageView bottomimg = (ImageView) view.findViewById(R.id.imageView1);
+
+                            final String i = commentList.get(position).get("is_author");
+
+                            if (i.equalsIgnoreCase("false")){
+                                bottomimg.setImageResource(R.drawable.ic_action_warning);
+                                relative.setBackgroundColor(Color.parseColor("#FF8000"));
+
+                            }
+                            final String n = commentList.get(position).get("pid");
+
+                            relative.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+
+                                    if(i.equalsIgnoreCase("false")){
+                                        new ReportJSONParse().execute("https://beuntamed.com/app/api/2.0/posts/report_post", n);
+                                    }
+                                    else{
+                                        new ReportJSONParse().execute("https://beuntamed.com/app/api/2.0/posts/delete_post", n);
+                                    }
+
+                                }
+                            });
+
+                            comVote.setOnClickListener(new View.OnClickListener() {
+
+                                @Override
+                                public void onClick(View v){
+                                    new Vote().execute(n, "comment");
+
+                                    int tLike = Integer.parseInt(commentList.get(position).get("likesonly"));
+
+                                    if(commentList.get(position).get("has_voted").equalsIgnoreCase("true"))
+                                        tLike++;
+                                    else
+                                        tLike--;
+
+                                    TextView likes = (TextView) findViewById(R.id.likes);
+                                    likes.setText(tLike + " Votes");
+                                }
+
+                            });
+
 
                             return view;
                         }
@@ -400,7 +449,7 @@ public class SinglePost extends ActionBarActivity{
 
 
             } catch (JSONException e) {
-                Log.i("you hooped", "mr. hooped");
+                Log.i("option selected", "It appears the plane has crashed");
             }
         }
 
@@ -470,7 +519,7 @@ public class SinglePost extends ActionBarActivity{
                     String token = prefs.getString("access_token", null);
                     if(token!=null)
 
-                        json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote", token, "post", args[0], false);
+                        json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote", token, args[1], args[0], false);
                 } catch (IOException | JSONException e) {		//catches specific exceptions
                     return null;
                 }
@@ -492,7 +541,6 @@ public class SinglePost extends ActionBarActivity{
                         }
                     });
                 }
-                //TODO: implement proper offline handling. Currently does not handle disconnection from network
 
                 return null;
             }
@@ -528,10 +576,8 @@ public class SinglePost extends ActionBarActivity{
             if(isNetworkAvailable()){								//as long as the network is available
                 JSONObject json = null;				//creates a new JSONObject
                 try {
-                    int cid = prefs.getInt("comid", -1);
                     String token = prefs.getString("access_token", null);
                     if(token!=null)
-
                         json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_comment", token, args[0] , args[1], args[2], false);
                 } catch (IOException | JSONException e) {		//catches specific exceptions
                     return null;
@@ -554,7 +600,6 @@ public class SinglePost extends ActionBarActivity{
                         }
                     });
                 }
-                //TODO: implement proper offline handling. Currently does not handle disconnection from network
 
                 return null;
             }
@@ -570,11 +615,83 @@ public class SinglePost extends ActionBarActivity{
                     }
                 });
             }else{
-                commentlist.clear();
+                commentList.clear();
                 new JSONParse().execute(pid);
             }
 
 
         }}
+
+
+    private class ReportJSONParse extends AsyncTask<String, String, JSONObject> {
+        private ProgressDialog pDialog;				//creates a new progress dialog to show the loading of messages
+        @Override
+        protected void onPreExecute() {			//before executing
+            super.onPreExecute();
+            pDialog = new ProgressDialog(SinglePost.this);	//creates and displays the progress dialog
+            pDialog.setMessage("Reporting message...");
+            pDialog.setIndeterminate(false);
+            pDialog.setCancelable(true);
+            pDialog.show();
+        }
+
+        @Override
+        protected JSONObject doInBackground(String... args)
+        {	//do in background while the process is executing
+            JSONParser jParser = new JSONParser();					//creates a new JSONParser object
+            // Getting JSON from URL
+            if(isNetworkAvailable()){								//as long as the network is available
+                JSONObject json = null;				//creates a new JSONObject
+                try {
+                    String token = prefs.getString("access_token", null);
+                    if(token!=null)
+                        json = jParser.getJSONFromUrl(args[0], token, args[1], 1);
+                } catch (IOException | JSONException e) {		//catches specific exceptions
+                    return null;
+                }
+
+                return json;								//returns the JSON object
+            }
+
+            else{
+                JSONObject json;
+                try {
+                    json = new JSONObject(getStringProperty("json"));
+                    return json;
+                } catch (JSONException e) {
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Error Reporting Confession",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
+
+                return null;
+            }
+        }
+        @Override
+        protected void onPostExecute(JSONObject json) {
+            pDialog.dismiss();
+            if(json ==null){
+                runOnUiThread(new Runnable() {				//Toast message claiming Error with loading the data
+                    public void run() {
+                        Toast.makeText(getApplicationContext(),
+                                "Cannot report post. Please try again later or contact the admins",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }else{
+            }
+
+            commentList.clear();
+            new JSONParse().execute();
+
+
+        }}
+
+
+
 
 }

@@ -27,6 +27,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -37,6 +38,7 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -111,10 +113,12 @@ public class CommunityView extends ActionBarActivity {
 					AlertDialog.Builder alert = new AlertDialog.Builder(CommunityView.this);
 
 					alert.setTitle("New Confession");
-					alert.setMessage("Enter a confession");
+					alert.setMessage("Enter your confession below. Please refrain from posting harmful or offensive content.");
 
 					// Set an EditText view to get user input
 					final EditText input = new EditText(getApplicationContext());
+                    input.setMinLines(10);
+
 					alert.setView(input);
 
 					alert.setPositiveButton("Send", new DialogInterface.OnClickListener() {
@@ -135,6 +139,7 @@ public class CommunityView extends ActionBarActivity {
 							// Canceled.
 						}
 					});
+
 
 					alert.show();
 
@@ -391,8 +396,7 @@ public class CommunityView extends ActionBarActivity {
 	   				  }
 	   				});
 			}
-			//TODO: implement proper offline handling. Currently does not handle disconnection from network
-			
+
 			return null;
          }
        }
@@ -482,6 +486,8 @@ public class CommunityView extends ActionBarActivity {
 				  map.put("mask_hex", String.valueOf(post.getMask_hex()));
 				  map.put("text", String.valueOf(post.getText()));
 				  map.put("isAuth", String.valueOf(post.getIs_auth()));
+                  map.put("likesonly", String.valueOf(post.getLike_count()));
+                  map.put("commentsonly", String.valueOf(post.getComment_count()));
 				  map.put("like_count", String.valueOf(post.getLike_count()) + " Votes " + String.valueOf(post.getComment_count()) + " Comments");
 				  map.put("time_posted", updatedTime);
 
@@ -489,16 +495,15 @@ public class CommunityView extends ActionBarActivity {
 			  }
                   //creates and sets up adapter for the listview
                   ListAdapter adapter = new SimpleAdapter(CommunityView.this, postlist, R.layout.post_list_item, (new String[]{"text",
-                		  "like_count", "mask_class", "mask_hex", "time_posted", "pid", "isAuth"}),
-                		  (new int[] {R.id.text, R.id.likes, R.id.avatar, R.id.hexname, R.id.expires, R.id.pid, R.id.isauth})){
+                		  "like_count", "mask_class", "time_posted"}),
+                		  (new int[] {R.id.text, R.id.likes, R.id.avatar, R.id.expires})){
 
                 	  @Override
-                	  public View getView(int position, View convertView, ViewGroup parent) {
-
+                	  public View getView(final int position, View convertView, ViewGroup parent) {
                 	      View view = super.getView(position, convertView, parent);
                 	      TextView text = (TextView) view.findViewById(R.id.avatar);		//gets textview for avatar
-                	      TextView hex = (TextView) view.findViewById(R.id.hexname);		//avatar textview
-                	      String s = hex.getText().toString();								//converts hex value to string
+                          ImageButton comVote = (ImageButton) view.findViewById(R.id.comvote);
+                          String s = postlist.get(position).get("mask_hex");								//converts hex value to string
                 	      	text.setTextColor(Color.parseColor(s));							//sets the color to the given color
                 	        text.setTypeface(typeFace);										//sets the typeface to the typeface
                 	        text.setTextSize(40);											//sets size
@@ -513,28 +518,45 @@ public class CommunityView extends ActionBarActivity {
 						  RelativeLayout relative = (RelativeLayout) view.findViewById(R.id.bottom_wrapper);
 						  ImageView img = (ImageView) view.findViewById(R.id.imageView1);
 
+                          final int i = Integer.valueOf(postlist.get(position).get("isAuth"));
 
-						  if (1==1){		//TODO: FIX THIS SHIT NIGGA YOU ARE A MAN NOT A PUSSY
+						  if (i==0){
 							  img.setImageResource(R.drawable.ic_action_warning);
 							  relative.setBackgroundColor(Color.parseColor("#FF8000"));
 
 						  }
+                          final String n = postlist.get(position).get("pid");
+
+
+                          comVote.setOnClickListener(new View.OnClickListener() {
+
+                              @Override
+                              public void onClick(View v){
+                                  new Vote().execute(n, "post");
+
+                                  int tLike = Integer.parseInt(postlist.get(position).get("likesonly"));
+                                  int tCom = Integer.parseInt(postlist.get(position).get("commentsonly"));
+
+                                  if(postlist.get(position).get("has_voted").equalsIgnoreCase("true"))
+                                    tLike++;
+                                  else
+                                    tLike--;
+
+                                  TextView likes = (TextView) findViewById(R.id.likes);
+                                  likes.setText(tLike+" Votes "+tCom+" Comments");
+                              }
+
+                          });
 
 						  relative.setOnClickListener(new View.OnClickListener() {
 							  @Override
 							  public void onClick(View v) {
-								  TextView pid = (TextView) findViewById(R.id.pid);
-								  String n = pid.getText().toString();
-
-								  TextView auth = (TextView) findViewById(R.id.isauth);
-								  String l = auth.getText().toString();
-								  int i = Integer.valueOf(l);
 
 								  if(i==0){
-									  new ReportJSONParse().execute(n);
+									  new ReportJSONParse().execute("https://beuntamed.com/app/api/2.0/posts/report_post", n);
 								  }
 								  else{
-									  new DeleteJSONParse().execute(n);
+									  new ReportJSONParse().execute("https://beuntamed.com/app/api/2.0/posts/delete_post", n);
 								  }
 
 							  }
@@ -659,7 +681,11 @@ public class CommunityView extends ActionBarActivity {
 	             })
 	            .setIcon(android.R.drawable.ic_dialog_alert)
 	             .show();
-	            return true;	        	
+	            return true;
+			case R.id.action_about:
+				Intent intent = new Intent(this, About.class);
+				startActivity(intent);
+				return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
 	    }
@@ -710,76 +736,6 @@ public class CommunityView extends ActionBarActivity {
 	}
 
 
-    private class DeleteJSONParse extends AsyncTask<String, String, JSONObject> {
-        private ProgressDialog pDialog;				//creates a new progress dialog to show the loading of messages
-       @Override
-         protected void onPreExecute() {			//before executing
-             super.onPreExecute();
-             pDialog = new ProgressDialog(CommunityView.this);	//creates and displays the progress dialog
-             pDialog.setMessage("Deleting message...");
-             pDialog.setIndeterminate(false);
-             pDialog.setCancelable(true);
-             pDialog.show();
-       }
-       
-       @Override
-         protected JSONObject doInBackground(String... args) {	//do in background while the process is executing
-         JSONParser jParser = new JSONParser();					//creates a new JSONParser object
-         // Getting JSON from URL
-         if(isNetworkAvailable()){								//as long as the network is available
-         JSONObject json = null;				//creates a new JSONObject
-		try {
-			String token = prefs.getString("access_token", null);
-			if(token!=null)
-				json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/delete_post", token, args[0], 0);
-		} catch (IOException | JSONException e) {		//catches specific exceptions
-				return null;
-		}
-         return json;								//returns the JSON object
-        }
-         
-         else{
-        	 JSONObject json;
-			try {
-				json = new JSONObject(getStringProperty("json"));
-				return json;
-			} catch (JSONException e) {
-				runOnUiThread(new Runnable() {
-	   				  public void run() {
-	   					    Toast.makeText(getApplicationContext(), 
-	   					            "Error Deleting Confession", 
-	   					            Toast.LENGTH_SHORT).show();
-	   				  }
-	   				});
-			}
-			//TODO: implement proper offline handling. Currently does not handle disconnection from network
-			
-			return null;
-         }
-       }
-       @Override
-       protected void onPostExecute(JSONObject json) {
-    	   pDialog.dismiss();
-    	   if(json ==null){
-			   runOnUiThread(new Runnable() {				//Toast message claiming Error with loading the data
-					  public void run() {
-						    Toast.makeText(getApplicationContext(), 
-						            "Cannot delete post. Please try again later or contact the admins", 
-						            Toast.LENGTH_SHORT).show();
-					  }
-					});
-		   }else{
-		   }
-
-		   postlist.clear();
-		   page=1;
-		   current_item=0;
-    	   new JSONParse().execute();
-         
-        
-     }}
-
-
 	private class ReportJSONParse extends AsyncTask<String, String, JSONObject> {
 		private ProgressDialog pDialog;				//creates a new progress dialog to show the loading of messages
 		@Override
@@ -801,7 +757,7 @@ public class CommunityView extends ActionBarActivity {
 				try {
 					String token = prefs.getString("access_token", null);
 					if(token!=null)
-						json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/report_post", token, args[0], 0);
+						json = jParser.getJSONFromUrl(args[0], token, args[1], 0);
 				} catch (IOException | JSONException e) {		//catches specific exceptions
 					return null;
 				}
@@ -823,7 +779,6 @@ public class CommunityView extends ActionBarActivity {
 						}
 					});
 				}
-				//TODO: implement proper offline handling. Currently does not handle disconnection from network
 
 				return null;
 			}
@@ -937,7 +892,7 @@ public class CommunityView extends ActionBarActivity {
 					int cid = prefs.getInt("comid", -1);
 					String token = prefs.getString("access_token", null);
 					if(token!=null)
-						//sets JSON object as downloaded with the access token (TODO: implement a better system than using 1 for community and school for type)
+						//sets JSON object as downloaded with the access token
 						json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_post", token, args[0], cidd[cid], 0);
 				} catch (IOException | JSONException e) {		//catches specific exceptions
 					return null;
@@ -1005,6 +960,70 @@ public class CommunityView extends ActionBarActivity {
 
 
 	}
+
+
+    private class Vote extends AsyncTask<String, String, JSONObject> {
+        @Override
+        protected void onPreExecute() {			//before executing
+            super.onPreExecute();
+        }
+
+        @Override
+        protected JSONObject doInBackground(String... args) {	//do in background while the process is executing
+            JSONParser jParser = new JSONParser();					//creates a new JSONParser object
+            // Getting JSON from URL
+            if(isNetworkAvailable()){								//as long as the network is available
+                JSONObject json = null;				//creates a new JSONObject
+                try {
+                    int cid = prefs.getInt("comid", -1);
+                    String token = prefs.getString("access_token", null);
+                    if(token!=null)
+
+                        json = jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote", token, args[1], args[0], false);
+                } catch (IOException | JSONException e) {		//catches specific exceptions
+                    return null;
+                }
+
+                return json;								//returns the JSON object
+            }
+
+            else{
+                JSONObject json;
+                try {
+                    json = new JSONObject(getStringProperty("json"));
+                    return json;
+                } catch (JSONException e) {
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Error Loading Confession",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
+                //TODO: implement proper offline handling. Currently does not handle disconnection from network
+
+                return null;
+            }
+        }
+        @Override
+        protected void onPostExecute(JSONObject json) {
+            if(json ==null){
+                runOnUiThread(new Runnable() {				//Toast message claiming Error with loading the data
+                    public void run() {
+                        Toast.makeText(getApplicationContext(),
+                                "Cannot retrieve post. Please try again later or contact the admins",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }else{
+
+            }
+
+
+        }}
+
+
 
 
 }

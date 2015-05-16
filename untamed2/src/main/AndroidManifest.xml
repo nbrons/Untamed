@@ -65,9 +65,15 @@
         </activity>
 
         <activity
-            android:name=".SinglePost"
+        android:name=".SinglePost"
+        android:parentActivityName="com.brons.untamed2.CommunityView"
+        android:label="@string/title_single_post" >
+    </activity>
+
+        <activity
+            android:name=".About"
             android:parentActivityName="com.brons.untamed2.CommunityView"
-            android:label="@string/title_single_post" >
+            android:label="About" >
         </activity>
     </application>
 
