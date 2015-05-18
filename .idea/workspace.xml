@@ -7,34 +7,18 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="option selected" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec9160-4ec6-44b0-9c1e-1542120a6a72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-hdpi/ic_action_back_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-mdpi/ic_action_back_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untamed2/src/main/res/drawable-xhdpi/ic_action_back_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/About.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\classes\debug\com\brons\untamed2\CommunityView$DeleteJSONParse$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\classes\debug\com\brons\untamed2\CommunityView$DeleteJSONParse$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\classes\debug\com\brons\untamed2\CommunityView$DeleteJSONParse.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\layout\post_list_image_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\layout\single_footer_file.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\layout\single_header_file.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\res\debug\menu\community_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\layout\post_list_image_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\layout\single_footer_file.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\layout\single_header_file.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\src\main\res\menu\community_view.xml" afterPath="" />
+    <list default="true" id="8fec9160-4ec6-44b0-9c1e-1542120a6a72" name="Default" comment="- Dialog box appearance (DONE)&#10;&#10;Fixed a large amount of common glitches and dangerous situations.&#10;Two things are left to do before version1 of the app is completed: &#10;&#10;1) Contact Osiris and get the JSON response for voting and commenting to work&#10;2) Let the user know they voted. Either highlight the vote arrows, or a toast notification, or somehting. probably the first one. Too tired to finish will finish next sprint.">
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/dslActivation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_2_2.xml" />
+      <change type="DELETED" beforePath="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\classes\debug\com\brons\untamed2\CommunityView$4$1.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1$2.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$2.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$3.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$4$1.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$4$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$4.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$5.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$6.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$6.class" />
@@ -56,20 +40,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$SendConfJSONParse$2.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$SendConfJSONParse$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$SendConfJSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView$SendConfJSONParse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/CommunityView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/JSONParser.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/JSONParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$4.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/LoginActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse$4.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList$JSONParse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/MessageList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/NewMessage.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/NewMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$color.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$color.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$color.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/melnykov/fab/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$dimen.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$drawable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$drawable.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$id.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$id.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$integer.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$layout.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$layout.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/facebook/android/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$menu.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$string.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$style.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/R$style.class" />
@@ -89,32 +74,44 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost.class" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/classes/debug/com/brons/untamed2/SinglePost.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/facebookSDK/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/facebookSDK/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/outputs/aar/facebookSDK-debug.aar" afterPath="$PROJECT_DIR$/facebookSDK/build/outputs/aar/facebookSDK-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/outputs/aar/facebookSDK-release.aar" afterPath="$PROJECT_DIR$/facebookSDK/build/outputs/aar/facebookSDK-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/pre-dexed/debug/library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/pre-dexed/debug/library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookSDK/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/facebookSDK/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug-unaligned.apk" afterPath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug.apk" afterPath="$PROJECT_DIR$/untamed2/build/outputs/apk/untamed2-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/brons/untamed2/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/brons/untamed2/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/melnykov/fab/R.java" afterPath="$PROJECT_DIR$/untamed2/build/generated/source/r/debug/com/melnykov/fab/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" afterPath="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build.gradle" afterPath="$PROJECT_DIR$/untamed2/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/diff.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/diff.xml" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/find.recents.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/find.recents.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/untamed2/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_item.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_item_dark.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/layout/post_list_item_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/values-v11/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/untamed2/src/main/res/values-v14/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/untamed2.iml" afterPath="$PROJECT_DIR$/untamed2/untamed2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/untamed2/build/intermediates/res/debug/values-v11/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Untamed2.iws" />
@@ -186,56 +183,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post_list_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.275862">
-              <caret line="69" column="30" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommunityView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2825397">
-              <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.4559068">
+              <caret line="626" column="21" selection-start-line="626" selection-start-column="21" selection-end-line="626" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4170#4595#0" expanded="true" />
-                <element signature="e#4594#4595#0" expanded="true" />
-                <element signature="e#4638#4781#0" expanded="true" />
-                <element signature="e#4780#4781#0" expanded="true" />
-                <element signature="e#20525#21397#0" expanded="true" />
-                <element signature="e#21396#21397#0" expanded="true" />
-                <element signature="e#22032#22474#0" expanded="true" />
-                <element signature="e#22473#22474#0" expanded="true" />
-                <element signature="e#25601#25795#0" expanded="true" />
-                <element signature="e#25794#25795#0" expanded="true" />
-                <element signature="e#25850#26034#0" expanded="true" />
-                <element signature="e#26033#26034#0" expanded="true" />
+                <element signature="e#4113#4518#0" expanded="true" />
+                <element signature="e#4517#4518#0" expanded="true" />
+                <element signature="e#4557#4686#0" expanded="true" />
+                <element signature="e#4685#4686#0" expanded="true" />
+                <element signature="e#14722#14950#0" expanded="true" />
+                <element signature="e#14949#14950#0" expanded="true" />
+                <element signature="e#17364#17380#0" expanded="true" />
+                <element signature="e#20633#21567#0" expanded="true" />
+                <element signature="e#21566#21567#0" expanded="true" />
+                <element signature="e#21607#21976#0" expanded="true" />
+                <element signature="e#21975#21976#0" expanded="true" />
+                <element signature="e#22202#22644#0" expanded="true" />
+                <element signature="e#22643#22644#0" expanded="true" />
+                <element signature="e#25993#26193#0" expanded="true" />
+                <element signature="e#26192#26193#0" expanded="true" />
+                <element signature="e#26248#26438#0" expanded="true" />
+                <element signature="e#26437#26438#0" expanded="true" />
                 <element signature="class#Logout#0;class#CommunityView#0" expanded="false" />
-                <element signature="method#isLocationEnabled#0;class#CommunityView#0" expanded="false" />
-                <element signature="e#34940#34941#0" expanded="true" />
-                <element signature="e#35005#35006#0" expanded="true" />
-                <element signature="e#36218#36522#0" expanded="true" />
-                <element signature="e#36521#36522#0" expanded="true" />
-                <element signature="e#36842#37220#0" expanded="true" />
-                <element signature="e#37219#37220#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/menu/main.xml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untamed2/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values-v11/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values-v14/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -245,9 +267,8 @@
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="379" column="21" selection-start-line="379" selection-start-column="21" selection-end-line="379" selection-end-column="21" />
+              <caret line="404" column="0" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
               <folding>
-                <element signature="e#0#12806#0" expanded="true" />
                 <element signature="method#getJSONFromUrl#0;class#JSONParser#0" expanded="false" />
                 <element signature="method#getJSONFromUrl#1;class#JSONParser#0" expanded="false" />
                 <element signature="method#getJSONFromUrl#2;class#JSONParser#0" expanded="false" />
@@ -264,30 +285,9 @@
       <file leaf-file-name="SinglePost.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-              <folding>
-                <element signature="e#5364#5507#0" expanded="true" />
-                <element signature="e#5506#5507#0" expanded="true" />
-                <element signature="e#7472#8179#0" expanded="true" />
-                <element signature="e#8178#8179#0" expanded="true" />
-                <element signature="e#17685#18328#0" expanded="true" />
-                <element signature="e#18327#18328#0" expanded="true" />
-                <element signature="e#18387#19173#0" expanded="true" />
-                <element signature="e#19172#19173#0" expanded="true" />
-                <element signature="e#20369#20370#0" expanded="true" />
-                <element signature="e#20415#20416#0" expanded="true" />
-                <element signature="e#20987#20988#0" expanded="true" />
-                <element signature="e#21041#21042#0" expanded="true" />
-                <element signature="e#22455#22759#0" expanded="true" />
-                <element signature="e#22758#22759#0" expanded="true" />
-                <element signature="e#22967#23345#0" expanded="true" />
-                <element signature="e#23344#23345#0" expanded="true" />
-                <element signature="e#23527#23528#0" expanded="true" />
-                <element signature="e#23592#23593#0" expanded="true" />
-                <element signature="e#25272#25650#0" expanded="true" />
-                <element signature="e#25649#25650#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-7.1034484">
+              <caret line="143" column="39" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -298,59 +298,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="About.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/About.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/about.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single_post.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.034483">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_list_item_dark.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1724138">
-              <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -941,6 +890,11 @@
                 <option name="description" value="Prepare com.melnykov:floatingactionbutton:1.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComMelnykovFloatingactionbutton130Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare me.drakeet.materialdialog:library:1.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareMeDrakeetMaterialdialogLibrary122Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare Untamed:facebookSDK:unspecified" />
@@ -1811,6 +1765,11 @@
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare me.drakeet.materialdialog:library:1.2.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/untamed2" />
+                <option name="name" value="prepareMeDrakeetMaterialdialogLibrary122Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/untamed2" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
@@ -1910,7 +1869,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5722224988477" />
+        <entry key="$PROJECT_DIR$" value="5723589218070" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2163,6 +2122,7 @@
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/21.0.3/appcompat-v7-21.0.3.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.melnykov/floatingactionbutton/1.3.0/c28a6453b8e47eeb0764f649b90cdd67f39c1893/floatingactionbutton-1.3.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.swipelayout/library/1.2.0/44b3b8b1f9625bf4a697ab2b32a95da20ee7ddea/library-1.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.drakeet.materialdialog/library/1.2.2/b7cadb9c91ad387e7c2d05a4c1f819f43c6b9659/library-1.2.2.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/21.0.3/recyclerview-v7-21.0.3.aar" />
@@ -2245,15 +2205,19 @@
       <list>
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Helper.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_image_item.xml" />
-        <option value="$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/menu/community_view.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/about.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/About.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java" />
-        <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/untamed2/build.gradle" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/res/values-v11/styles.xml" />
+        <option value="$PROJECT_DIR$/untamed2/src/main/res/values-v14/styles.xml" />
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java" />
         <option value="$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java" />
       </list>
@@ -2308,7 +2272,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2320,6 +2284,19 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Untamed2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2327,15 +2304,9 @@
               <option name="myItemId" value="Untamed2" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2347,63 +2318,11 @@
               <option name="myItemId" value="untamed2" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Untamed2" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untamed2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2416,20 +2335,21 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Untamed2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Untamed">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Untamed">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -2780,7 +2700,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431328419737</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- Swipe colors (DONE)&#10;- Fix functionality of vote buttons (DONE)&#10;- API calls to comment and like (DONE)&#10;- addvote on single post (DONE)&#10;- votes++ (DONE)&#10;&#10;and cleaned up code. Made more efficient. Did some other fun things too. Added small features, fixed some bugs, and have to stop because internet is dead now. See you tomorrow I hope.">
+      <created>1431751476141</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1431751476141</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2796,13 +2722,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32369298" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26807564" sideWeight="0.4936034" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26807564" sideWeight="0.4936034" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14498934" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10021322" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2838,7 +2764,9 @@
     <MESSAGE value="Added a non-functional vote button" />
     <MESSAGE value="Fxied some visuals and UI issues" />
     <MESSAGE value="Can now post comments as anon or yourself. API call doesn't work lol goddamit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can now post comments as anon or yourself. API call doesn't work lol goddamit" />
+    <MESSAGE value="- Swipe colors (DONE)&#10;- Fix functionality of vote buttons (DONE)&#10;- API calls to comment and like (DONE)&#10;- addvote on single post (DONE)&#10;- votes++ (DONE)&#10;&#10;and cleaned up code. Made more efficient. Did some other fun things too. Added small features, fixed some bugs, and have to stop because internet is dead now. See you tomorrow I hope." />
+    <MESSAGE value="- Dialog box appearance (DONE)&#10;&#10;Fixed a large amount of common glitches and dangerous situations.&#10;Two things are left to do before version1 of the app is completed: &#10;&#10;1) Contact Osiris and get the JSON response for voting and commenting to work&#10;2) Let the user know they voted. Either highlight the vote arrows, or a toast notification, or somehting. probably the first one. Too tired to finish will finish next sprint." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Dialog box appearance (DONE)&#10;&#10;Fixed a large amount of common glitches and dangerous situations.&#10;Two things are left to do before version1 of the app is completed: &#10;&#10;1) Contact Osiris and get the JSON response for voting and commenting to work&#10;2) Let the user know they voted. Either highlight the vote arrows, or a toast notification, or somehting. probably the first one. Too tired to finish will finish next sprint." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2847,6 +2775,28 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item_dark.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/single_post.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2875,26 +2825,24 @@
           <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4170#4595#0" expanded="true" />
-            <element signature="e#4594#4595#0" expanded="true" />
-            <element signature="e#4638#4781#0" expanded="true" />
-            <element signature="e#4780#4781#0" expanded="true" />
-            <element signature="e#20525#21397#0" expanded="true" />
-            <element signature="e#21396#21397#0" expanded="true" />
-            <element signature="e#22032#22474#0" expanded="true" />
-            <element signature="e#22473#22474#0" expanded="true" />
-            <element signature="e#25601#25795#0" expanded="true" />
-            <element signature="e#25794#25795#0" expanded="true" />
-            <element signature="e#25850#26034#0" expanded="true" />
-            <element signature="e#26033#26034#0" expanded="true" />
+            <element signature="e#4113#4518#0" expanded="true" />
+            <element signature="e#4517#4518#0" expanded="true" />
+            <element signature="e#4557#4686#0" expanded="true" />
+            <element signature="e#4685#4686#0" expanded="true" />
+            <element signature="e#14722#14950#0" expanded="true" />
+            <element signature="e#14949#14950#0" expanded="true" />
+            <element signature="e#17364#17380#0" expanded="true" />
+            <element signature="e#20633#21567#0" expanded="true" />
+            <element signature="e#21566#21567#0" expanded="true" />
+            <element signature="e#21607#21976#0" expanded="true" />
+            <element signature="e#21975#21976#0" expanded="true" />
+            <element signature="e#22202#22644#0" expanded="true" />
+            <element signature="e#22643#22644#0" expanded="true" />
+            <element signature="e#25993#26193#0" expanded="true" />
+            <element signature="e#26192#26193#0" expanded="true" />
+            <element signature="e#26248#26438#0" expanded="true" />
+            <element signature="e#26437#26438#0" expanded="true" />
             <element signature="class#Logout#0;class#CommunityView#0" expanded="false" />
-            <element signature="method#isLocationEnabled#0;class#CommunityView#0" expanded="false" />
-            <element signature="e#34940#34941#0" expanded="true" />
-            <element signature="e#35005#35006#0" expanded="true" />
-            <element signature="e#36218#36522#0" expanded="true" />
-            <element signature="e#36521#36522#0" expanded="true" />
-            <element signature="e#36842#37220#0" expanded="true" />
-            <element signature="e#37219#37220#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3012,31 +2960,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values-v11/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values-v14/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -3072,13 +2999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9557522">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -3125,23 +3045,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7183735">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-          <folding>
-            <element signature="e#1109#1127#0" expanded="false" />
-            <element signature="e#1338#1356#0" expanded="false" />
-            <element signature="e#1532#1550#0" expanded="false" />
-            <element signature="e#1931#1964#0" expanded="false" />
-            <element signature="e#2293#2311#0" expanded="false" />
-            <element signature="e#2491#2516#0" expanded="false" />
-            <element signature="e#2607#2646#0" expanded="false" />
-            <element signature="e#2815#2842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Post.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.563253">
@@ -3160,24 +3063,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/about.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/About.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3192,20 +3081,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3215,7 +3096,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1724138">
+        <state vertical-scroll-proportion="0.0">
           <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
           <folding />
         </state>
@@ -3226,19 +3107,27 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.034483">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/about.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.275862">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -3246,9 +3135,8 @@
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="379" column="21" selection-start-line="379" selection-start-column="21" selection-end-line="379" selection-end-column="21" />
+          <caret line="404" column="0" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
           <folding>
-            <element signature="e#0#12806#0" expanded="true" />
             <element signature="method#getJSONFromUrl#0;class#JSONParser#0" expanded="false" />
             <element signature="method#getJSONFromUrl#1;class#JSONParser#0" expanded="false" />
             <element signature="method#getJSONFromUrl#2;class#JSONParser#0" expanded="false" />
@@ -3261,61 +3149,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding>
-            <element signature="e#5364#5507#0" expanded="true" />
-            <element signature="e#5506#5507#0" expanded="true" />
-            <element signature="e#7472#8179#0" expanded="true" />
-            <element signature="e#8178#8179#0" expanded="true" />
-            <element signature="e#17685#18328#0" expanded="true" />
-            <element signature="e#18327#18328#0" expanded="true" />
-            <element signature="e#18387#19173#0" expanded="true" />
-            <element signature="e#19172#19173#0" expanded="true" />
-            <element signature="e#20369#20370#0" expanded="true" />
-            <element signature="e#20415#20416#0" expanded="true" />
-            <element signature="e#20987#20988#0" expanded="true" />
-            <element signature="e#21041#21042#0" expanded="true" />
-            <element signature="e#22455#22759#0" expanded="true" />
-            <element signature="e#22758#22759#0" expanded="true" />
-            <element signature="e#22967#23345#0" expanded="true" />
-            <element signature="e#23344#23345#0" expanded="true" />
-            <element signature="e#23527#23528#0" expanded="true" />
-            <element signature="e#23592#23593#0" expanded="true" />
-            <element signature="e#25272#25650#0" expanded="true" />
-            <element signature="e#25649#25650#0" expanded="true" />
-          </folding>
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values-v11/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values-v14/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/res/layout/post_list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6136364">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/SinglePost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1034484">
+          <caret line="143" column="39" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untamed2/src/main/java/com/brons/untamed2/CommunityView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2825397">
-          <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.4559068">
+          <caret line="626" column="21" selection-start-line="626" selection-start-column="21" selection-end-line="626" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4170#4595#0" expanded="true" />
-            <element signature="e#4594#4595#0" expanded="true" />
-            <element signature="e#4638#4781#0" expanded="true" />
-            <element signature="e#4780#4781#0" expanded="true" />
-            <element signature="e#20525#21397#0" expanded="true" />
-            <element signature="e#21396#21397#0" expanded="true" />
-            <element signature="e#22032#22474#0" expanded="true" />
-            <element signature="e#22473#22474#0" expanded="true" />
-            <element signature="e#25601#25795#0" expanded="true" />
-            <element signature="e#25794#25795#0" expanded="true" />
-            <element signature="e#25850#26034#0" expanded="true" />
-            <element signature="e#26033#26034#0" expanded="true" />
+            <element signature="e#4113#4518#0" expanded="true" />
+            <element signature="e#4517#4518#0" expanded="true" />
+            <element signature="e#4557#4686#0" expanded="true" />
+            <element signature="e#4685#4686#0" expanded="true" />
+            <element signature="e#14722#14950#0" expanded="true" />
+            <element signature="e#14949#14950#0" expanded="true" />
+            <element signature="e#17364#17380#0" expanded="true" />
+            <element signature="e#20633#21567#0" expanded="true" />
+            <element signature="e#21566#21567#0" expanded="true" />
+            <element signature="e#21607#21976#0" expanded="true" />
+            <element signature="e#21975#21976#0" expanded="true" />
+            <element signature="e#22202#22644#0" expanded="true" />
+            <element signature="e#22643#22644#0" expanded="true" />
+            <element signature="e#25993#26193#0" expanded="true" />
+            <element signature="e#26192#26193#0" expanded="true" />
+            <element signature="e#26248#26438#0" expanded="true" />
+            <element signature="e#26437#26438#0" expanded="true" />
             <element signature="class#Logout#0;class#CommunityView#0" expanded="false" />
-            <element signature="method#isLocationEnabled#0;class#CommunityView#0" expanded="false" />
-            <element signature="e#34940#34941#0" expanded="true" />
-            <element signature="e#35005#35006#0" expanded="true" />
-            <element signature="e#36218#36522#0" expanded="true" />
-            <element signature="e#36521#36522#0" expanded="true" />
-            <element signature="e#36842#37220#0" expanded="true" />
-            <element signature="e#37219#37220#0" expanded="true" />
           </folding>
         </state>
       </provider>

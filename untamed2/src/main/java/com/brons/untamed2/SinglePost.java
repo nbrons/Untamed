@@ -58,6 +58,24 @@ public class SinglePost extends ActionBarActivity{
     String has_voted;
     String hex;
     String dark_hex;
+    int total_votes;
+
+    private void setfabBackground(String has_voted, String hex, String dark_hex){
+        FloatingActionButton fab = (FloatingActionButton) findViewById (R.id.vote);
+        if(has_voted.equalsIgnoreCase("false")){
+            fab.setColorNormal(Color.parseColor("#e7e7e7"));
+            fab.setColorPressed(Color.parseColor("#262626"));
+            fab.setPressed(false);
+            fab.setImageResource(R.drawable.ic_action_next_item_black);
+        }
+        else {
+            fab.setColorNormal(Color.parseColor("#262626"));
+            fab.setColorPressed(Color.parseColor("#e7e7e7"));
+            fab.setPressed(true);
+            fab.setImageResource(R.drawable.ic_action_next_item);
+        }
+            new Vote().execute(pid, "post");
+    }
 
 
     protected void onCreate(Bundle savedInstanceState){
@@ -121,7 +139,6 @@ public class SinglePost extends ActionBarActivity{
         font.put("mask-water34", "\ue033");
 
 
-
         prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Intent intent = getIntent();
         HashMap<String, String> post = (HashMap<String, String>) intent.getSerializableExtra("post");
@@ -132,6 +149,31 @@ public class SinglePost extends ActionBarActivity{
         pid = post.get("pid");
 
         setfabBackground(has_voted, hex, dark_hex);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.vote);
+
+        final String likes = post.get("likesonly");
+        total_votes = Integer.parseInt(likes);
+        final String tTime = post.get("time_posted");
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Vote().execute(pid, "post");
+                setfabBackground(has_voted, hex, dark_hex);
+
+                if (has_voted.equalsIgnoreCase("false")) {
+                    has_voted = "true";
+                    total_votes++;
+                } else {
+                    has_voted = "false";
+                    total_votes--;
+                }
+
+                TextView time = (TextView) findViewById(R.id.time);
+                time.setText(tTime + " | " + total_votes + " Votes");
+            }
+        });
 
         LinearLayout ll = (LinearLayout) findViewById(R.id.layout_detail_main);
         ll.setBackgroundColor(Color.parseColor("#e7e7e7"));
@@ -151,27 +193,13 @@ public class SinglePost extends ActionBarActivity{
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.vote);
-
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                new Vote().execute(pid, "post");
-                setfabBackground(has_voted, hex, dark_hex);
-                if (has_voted.equalsIgnoreCase("false"))
-                    has_voted = "true";
-                else
-                    has_voted = "false";
-            }
-        });
-
         TextView text = (TextView) findViewById(R.id.text);
         text.setText(post.get("full_text"));
         text.setMovementMethod(new ScrollingMovementMethod());
 
         TextView time = (TextView) findViewById(R.id.time);
 
-        time.setText(post.get("time_posted"));
+        time.setText(post.get("time_posted")+" | "+post.get("likesonly")+" Votes");
 
         list = (ListView) findViewById(R.id.list_comments);
 
@@ -227,21 +255,6 @@ public class SinglePost extends ActionBarActivity{
         new JSONParse().execute(pid);
     }
 
-    private void setfabBackground(String has_voted, String hex, String dark_hex){
-        FloatingActionButton fab = (FloatingActionButton) findViewById (R.id.vote);
-        if(has_voted.equalsIgnoreCase("false")){
-            fab.setColorNormal(Color.parseColor("#e7e7e7"));
-            fab.setColorPressed(Color.parseColor("#262626"));
-            fab.setImageResource(R.drawable.ic_action_next_item_black);
-        }
-        else{
-            fab.setColorNormal(Color.parseColor("#262626"));
-            fab.setColorPressed(Color.parseColor("#e7e7e7"));
-            fab.setImageResource(R.drawable.ic_action_next_item);
-
-            new Vote().execute(pid, "post");
-        }
-    }
 
     private class JSONParse extends AsyncTask<String, String, JSONObject> {
         private ProgressDialog pDialog;                //creates a new progress dialog to show the loading of messages
@@ -427,9 +440,9 @@ public class SinglePost extends ActionBarActivity{
                                     int tLike = Integer.parseInt(commentList.get(position).get("likesonly"));
 
                                     if(commentList.get(position).get("has_voted").equalsIgnoreCase("true"))
-                                        tLike++;
-                                    else
                                         tLike--;
+                                    else
+                                        tLike++;
 
                                     TextView likes = (TextView) findViewById(R.id.likes);
                                     likes.setText(tLike + " Votes");
@@ -683,6 +696,7 @@ public class SinglePost extends ActionBarActivity{
                     }
                 });
             }else{
+                //do nothing
             }
 
             commentList.clear();

@@ -17,6 +17,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:spinnerDropDownItemStyle">@style/YourCustomDropDownItemStyle</item>
 
+
     </style>
     <!-- From: file:/C:/Users/Nick/workspace/Untamed/untamed2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml -->
     <eat-comment/>

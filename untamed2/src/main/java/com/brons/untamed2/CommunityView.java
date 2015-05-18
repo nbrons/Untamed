@@ -70,6 +70,8 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.concurrent.TimeUnit;
 
+import me.drakeet.materialdialog.MaterialDialog;
+
 public class CommunityView extends ActionBarActivity {
 
 	SwipeRefreshLayout swipelayout;
@@ -106,23 +108,23 @@ public class CommunityView extends ActionBarActivity {
 			fab.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					// Intent intent = new Intent(getApplicationContext(), NewMessage.class);
-					// intent.putExtra("postid", postlist.size());
-					//	 startActivityForResult(intent, 1);
 
-					AlertDialog.Builder alert = new AlertDialog.Builder(CommunityView.this);
-
-					alert.setTitle("New Confession");
-					alert.setMessage("Enter your confession below. Please refrain from posting harmful or offensive content.");
-
-					// Set an EditText view to get user input
 					final EditText input = new EditText(getApplicationContext());
-                    input.setMinLines(10);
+					input.setMinLines(7);
+					input.setFocusable(true);
+					input.setHint("Please enter your confession here....");
+					input.setGravity(Gravity.LEFT|Gravity.TOP);
 
-					alert.setView(input);
 
-					alert.setPositiveButton("Send", new DialogInterface.OnClickListener() {
-						public void onClick(DialogInterface dialog, int whichButton) {
+					final MaterialDialog alert = new MaterialDialog(CommunityView.this);
+					alert.setContentView(input)
+
+							.setMessage("Enter your confession below. Please refrain from posting harmful or offensive content.")
+							.setTitle("New Confession")
+
+
+					.setPositiveButton("Send", new View.OnClickListener() {
+						public void onClick(View v) {
 							String text = input.getText().toString();
 							if (text.length() < 10)
 								Toast.makeText(getApplicationContext(), "Your confession is too short!", Toast.LENGTH_LONG).show();
@@ -131,12 +133,14 @@ public class CommunityView extends ActionBarActivity {
 								current_item = 0;
 								new SendConfJSONParse().execute(text);
 							}
+							alert.dismiss();
 						}
-					});
+					})
 
-					alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-						public void onClick(DialogInterface dialog, int whichButton) {
-							// Canceled.
+							.setNegativeButton("Cancel", new View.OnClickListener() {
+								public void onClick(View v) {
+									// Canceled.
+									alert.dismiss();
 						}
 					});
 
@@ -277,11 +281,20 @@ public class CommunityView extends ActionBarActivity {
 			   setSupportActionBar(actionBar);
 
 			Drawable dr = getResources().getDrawable(R.drawable.untamed);
-			Bitmap bitmap = ((BitmapDrawable) dr).getBitmap();
-			Drawable d = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(bitmap, 100, 100, true));
+			try {
+				Bitmap bitmap = ((BitmapDrawable) dr).getBitmap();
+				Drawable d = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(bitmap, 100, 100, true));
+				actionBar.setLogo(d);
+			}catch(NullPointerException e){
+				runOnUiThread(new Runnable() {
+					public void run() {
+						Toast.makeText(getApplicationContext(),
+								"Error formatting ActionBar. Layout may be broken",
+								Toast.LENGTH_LONG).show();
+					}
+				});
+			}
 
-
-			   actionBar.setLogo(d);
 			   getSupportActionBar().setDisplayShowTitleEnabled(false);
 			   getSupportActionBar().show();
 
@@ -435,11 +448,11 @@ public class CommunityView extends ActionBarActivity {
 		  }
 
 		  else{
-   		  JSONArray array = null;						//new JSONArray
-   		  JSONObject data = new JSONObject();			//new JSONObject
+   		  JSONArray array;						//new JSONArray
+   		  JSONObject data;
    		  data = json.getJSONObject("data");			//gets the data from the raw JSON
      	  array = data.getJSONArray("posts");			//gets list of posts from the raw JSON data section
-     	       	  
+
      	  setStringProperty("json", array.toString());
 
 			  page++;
@@ -454,7 +467,7 @@ public class CommunityView extends ActionBarActivity {
 
 				  Timestamp updateTime = new Timestamp(post.getTime_posted());    //new timestamp based on provided timestamp
 				  Date date = new Date(updateTime.getTime() * 1000);                //date based on timestamp
-				  String updatedTime = "";                                        //empty string
+				  String updatedTime;                                        //empty string
 				  java.util.Date curr = new java.util.Date();                    //gets current date
 				  int diffInDays = (int) ((curr.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));    //difference between now and then
 				  if (diffInDays < 7) {                                                //selected date format depending on recency
@@ -502,7 +515,7 @@ public class CommunityView extends ActionBarActivity {
                 	  public View getView(final int position, View convertView, ViewGroup parent) {
                 	      View view = super.getView(position, convertView, parent);
                 	      TextView text = (TextView) view.findViewById(R.id.avatar);		//gets textview for avatar
-                          ImageButton comVote = (ImageButton) view.findViewById(R.id.comvote);
+                         final ImageButton comVote = (ImageButton) view.findViewById(R.id.comvote);
                           String s = postlist.get(position).get("mask_hex");								//converts hex value to string
                 	      	text.setTextColor(Color.parseColor(s));							//sets the color to the given color
                 	        text.setTypeface(typeFace);										//sets the typeface to the typeface
@@ -534,13 +547,17 @@ public class CommunityView extends ActionBarActivity {
                               public void onClick(View v){
                                   new Vote().execute(n, "post");
 
+								 // final ImageButton votebutt = (ImageButton) findViewById(R.id.comvote);
+
                                   int tLike = Integer.parseInt(postlist.get(position).get("likesonly"));
                                   int tCom = Integer.parseInt(postlist.get(position).get("commentsonly"));
 
-                                  if(postlist.get(position).get("has_voted").equalsIgnoreCase("true"))
-                                    tLike++;
-                                  else
-                                    tLike--;
+                                  if(postlist.get(position).get("has_voted").equalsIgnoreCase("true")) {
+									  tLike--;
+								  }
+                                  else {
+									  tLike++;
+								  }
 
                                   TextView likes = (TextView) findViewById(R.id.likes);
                                   likes.setText(tLike+" Votes "+tCom+" Comments");
@@ -603,6 +620,10 @@ public class CommunityView extends ActionBarActivity {
 							//Write your code here
 						}
 					}catch(NullPointerException e){
+
+								Toast.makeText(getApplicationContext(),
+										"No more posts to show for now!",            //toast message if there is an error
+										Toast.LENGTH_SHORT).show();
 					}
 
 
@@ -621,7 +642,7 @@ public class CommunityView extends ActionBarActivity {
                  swipelayout.setRefreshing(false);
 
 
-        	   } 
+        	   }
          } catch (JSONException e) {
 				runOnUiThread(new Runnable() {
 					public void run() {
@@ -666,21 +687,24 @@ public class CommunityView extends ActionBarActivity {
 	    // Handle presses on the action bar items
 	    switch (item.getItemId()) {
 	        case R.id.action_logout:
-	        	new AlertDialog.Builder(this)
-	            .setTitle("Log out?")
+	        	final MaterialDialog logoutDialog = new MaterialDialog(this);
+	            logoutDialog.setTitle("Log out?")
 	            .setMessage("Are you sure you want to log out?")
-	            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-	                public void onClick(DialogInterface dialog, int which) { 
+	            .setPositiveButton(android.R.string.yes, new View.OnClickListener() {
+					@Override
+	                public void onClick(View v) {
 	                    new Logout().execute();
+						logoutDialog.dismiss();
 	                }
 	             })
-	            .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-	                public void onClick(DialogInterface dialog, int which) { 
+	            .setNegativeButton(android.R.string.no, new View.OnClickListener() {
+	                @Override
+					public void onClick(View v) {
 	                    // do nothing
+						logoutDialog.dismiss();
 	                }
-	             })
-	            .setIcon(android.R.drawable.ic_dialog_alert)
-	             .show();
+	             });
+	             logoutDialog.show();
 	            return true;
 			case R.id.action_about:
 				Intent intent = new Intent(this, About.class);

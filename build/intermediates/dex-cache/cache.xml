@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Nick\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-e944464b0b51940f49255b0bb84e430294d8e665.jar" />
-    </item>
-    <item
         jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -35,6 +21,13 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-31cbcadeb4730346cb2052a5568e46d42b90f74c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\library-2.4.0-94f3380ea402f9582c5619c64f9f63b34486069c.jar" />
     </item>
     <item
         jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\Untamed\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
@@ -65,10 +58,24 @@
         <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-231bee29e47cf10a8d0c1da01d6746561ee563b9.jar" />
     </item>
     <item
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8646b1e69dd5d923d8866dc4311859f0fbca456c">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-8bb6587f7719507ed18f8ea33dea3a930d8a4c42.jar" />
+    </item>
+    <item
+        jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-e944464b0b51940f49255b0bb84e430294d8e665.jar" />
+    </item>
+    <item
         jar="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\exploded-aar\Untamed\facebookSDK\unspecified\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="97f8092c901372dcb982f6552a24c3026794c802">
+        sha1="c6895cb2929aed7a3e5133c372829e93f5965cdd">
         <dex dex="C:\Users\Nick\workspace\Untamed\untamed2\build\intermediates\pre-dexed\debug\classes-007b4180e0fa06ca4cdd05f27cfc19703e572fd5.jar" />
     </item>
 

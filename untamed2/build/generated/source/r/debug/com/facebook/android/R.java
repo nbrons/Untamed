@@ -33,17 +33,17 @@ public final class R {
 		public static final int title_text = 0x7f0100c3;
 	}
 	public static final class color {
-		public static final int com_facebook_blue = 0x7f080012;
-		public static final int com_facebook_likeboxcountview_border_color = 0x7f080013;
-		public static final int com_facebook_likeboxcountview_text_color = 0x7f080014;
-		public static final int com_facebook_likebutton_text_color = 0x7f080015;
-		public static final int com_facebook_likeview_text_color = 0x7f080016;
-		public static final int com_facebook_loginview_text_color = 0x7f080017;
-		public static final int com_facebook_picker_search_bar_background = 0x7f080018;
-		public static final int com_facebook_picker_search_bar_text = 0x7f080019;
-		public static final int com_facebook_usersettingsfragment_connected_shadow_color = 0x7f08001a;
-		public static final int com_facebook_usersettingsfragment_connected_text_color = 0x7f08001b;
-		public static final int com_facebook_usersettingsfragment_not_connected_text_color = 0x7f08001c;
+		public static final int com_facebook_blue = 0x7f080014;
+		public static final int com_facebook_likeboxcountview_border_color = 0x7f080015;
+		public static final int com_facebook_likeboxcountview_text_color = 0x7f080016;
+		public static final int com_facebook_likebutton_text_color = 0x7f080017;
+		public static final int com_facebook_likeview_text_color = 0x7f080018;
+		public static final int com_facebook_loginview_text_color = 0x7f080019;
+		public static final int com_facebook_picker_search_bar_background = 0x7f08001a;
+		public static final int com_facebook_picker_search_bar_text = 0x7f08001b;
+		public static final int com_facebook_usersettingsfragment_connected_shadow_color = 0x7f08001c;
+		public static final int com_facebook_usersettingsfragment_connected_text_color = 0x7f08001d;
+		public static final int com_facebook_usersettingsfragment_not_connected_text_color = 0x7f08001e;
 	}
 	public static final class dimen {
 		public static final int com_facebook_likeboxcountview_border_radius = 0x7f090027;
@@ -100,7 +100,7 @@ public final class R {
 		public static final int com_facebook_list_section_header_background = 0x7f02004d;
 		public static final int com_facebook_loginbutton_silver = 0x7f02004e;
 		public static final int com_facebook_logo = 0x7f02004f;
-		public static final int com_facebook_picker_default_separator_color = 0x7f020082;
+		public static final int com_facebook_picker_default_separator_color = 0x7f020086;
 		public static final int com_facebook_picker_item_background = 0x7f020050;
 		public static final int com_facebook_picker_list_focused = 0x7f020051;
 		public static final int com_facebook_picker_list_longpressed = 0x7f020052;
